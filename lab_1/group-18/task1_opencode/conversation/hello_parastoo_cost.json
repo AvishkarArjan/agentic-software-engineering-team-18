@@ -1,0 +1,197 @@
+{
+  "info": {
+    "id": "ses_e39602857ffeKxCtkE4MImvzzM",
+    "projectID": "4c8a1ebe754c414e11d1aa4ea2d1c78d7dfcd50b",
+    "agent": "build",
+    "model": {
+      "id": "openai.gpt-6-luna",
+      "providerID": "upb",
+      "variant": "default"
+    },
+    "cost": 0.0008061499999999998,
+    "tokens": {
+      "input": 457,
+      "output": 91,
+      "reasoning": 98,
+      "cache": {
+        "read": 9045,
+        "write": 4604
+      }
+    },
+    "outcome": "succeeded",
+    "time": {
+      "created": 1794333726647,
+      "updated": 1794333736205,
+      "busy": 1794333726682,
+      "idle": 1794333736212,
+      "viewed": 1794333736212
+    },
+    "title": "[redacted:session-title:ses_e39602857ffeKxCtkE4MImvzzM]",
+    "location": {
+      "directory": "/[redacted:session-directory:ses_e39602857ffeKxCtkE4MImvzzM]"
+    }
+  },
+  "messages": [
+    {
+      "id": "msg_1c69fd7ab001Bi874M3uTLieSr",
+      "time": {
+        "created": 1794333726690
+      },
+      "text": "[redacted:text:msg_1c69fd7ab001Bi874M3uTLieSr]",
+      "files": [],
+      "agents": [],
+      "type": "user"
+    },
+    {
+      "id": "msg_1c69fd7ea001HrByar8AgS3iNv",
+      "time": {
+        "created": 1794333726701,
+        "streamed": 1794333730613,
+        "completed": 1794333730626
+      },
+      "type": "assistant",
+      "agent": "build",
+      "model": {
+        "id": "openai.gpt-6-luna",
+        "providerID": "upb",
+        "variant": "default"
+      },
+      "content": [
+        {
+          "type": "tool",
+          "id": "call_nvCwDsBg2dNkEWeuFPwENKuQ",
+          "name": "read",
+          "executed": false,
+          "state": {
+            "status": "completed",
+            "input": {
+              "redacted": "tool-input:msg_1c69fd7ea001HrByar8AgS3iNv"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "[redacted:tool-output:msg_1c69fd7ea001HrByar8AgS3iNv]"
+              }
+            ],
+            "metadata": {
+              "redacted": "tool-metadata:msg_1c69fd7ea001HrByar8AgS3iNv"
+            }
+          },
+          "time": {
+            "created": 1794333729552,
+            "ran": 1794333730610,
+            "completed": 1794333730624
+          }
+        }
+      ],
+      "finish": "tool-calls",
+      "rawFinish": "tool_calls",
+      "cost": 0.0005906749999999999,
+      "tokens": {
+        "input": 3,
+        "output": 24,
+        "reasoning": 32,
+        "cache": {
+          "read": 0,
+          "write": 4499
+        }
+      }
+    },
+    {
+      "id": "msg_1c69fe746001i8xR5kQpqBfvhn",
+      "time": {
+        "created": 1794333730632,
+        "streamed": 1794333733681,
+        "completed": 1794333733722
+      },
+      "type": "assistant",
+      "agent": "build",
+      "model": {
+        "id": "openai.gpt-6-luna",
+        "providerID": "upb",
+        "variant": "default"
+      },
+      "content": [
+        {
+          "type": "tool",
+          "id": "call_lLUhWBXJL5TaFm7VBpMb1Q2j",
+          "name": "glob",
+          "executed": false,
+          "state": {
+            "status": "completed",
+            "input": {
+              "redacted": "tool-input:msg_1c69fe746001i8xR5kQpqBfvhn"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "[redacted:tool-output:msg_1c69fe746001i8xR5kQpqBfvhn]"
+              }
+            ],
+            "metadata": {
+              "redacted": "tool-metadata:msg_1c69fe746001i8xR5kQpqBfvhn"
+            }
+          },
+          "time": {
+            "created": 1794333732877,
+            "ran": 1794333733679,
+            "completed": 1794333733720
+          }
+        }
+      ],
+      "finish": "tool-calls",
+      "rawFinish": "tool_calls",
+      "cost": 0.000080665,
+      "tokens": {
+        "input": 3,
+        "output": 25,
+        "reasoning": 34,
+        "cache": {
+          "read": 4499,
+          "write": 47
+        }
+      }
+    },
+    {
+      "id": "msg_1c69ff35f001WRVEdqZLkHZ72v",
+      "time": {
+        "created": 1794333733728,
+        "streamed": 1794333736202,
+        "completed": 1794333736205
+      },
+      "type": "assistant",
+      "agent": "build",
+      "model": {
+        "id": "openai.gpt-6-luna",
+        "providerID": "upb",
+        "variant": "default"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "[redacted:text:msg_1c69ff35f001WRVEdqZLkHZ72v]"
+        }
+      ],
+      "finish": "stop",
+      "rawFinish": "stop",
+      "cost": 0.00006901,
+      "tokens": {
+        "input": 3,
+        "output": 32,
+        "reasoning": 0,
+        "cache": {
+          "read": 4546,
+          "write": 58
+        }
+      }
+    },
+    {
+      "id": "msg_1c69ffd14001EGTUDpU7T276ho",
+      "time": {
+        "created": 1794333736212
+      },
+      "type": "idle",
+      "outcome": "succeeded"
+    }
+  ]
+}
