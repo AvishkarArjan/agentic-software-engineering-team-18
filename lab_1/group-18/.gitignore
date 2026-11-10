@@ -1,0 +1,15 @@
+# Private credentials
+.env
+.env.*
+!.env.example
+
+# Python temporary files
+__pycache__/
+*.pyc
+.venv/
+
+# Generated RAG cache
+.rag_cache/
+
+# Local environment files
+.DS_Store
