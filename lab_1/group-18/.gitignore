@@ -13,3 +13,6 @@ __pycache__/
 
 # Local environment files
 .DS_Store
+
+# Task 4: throwaway git workspace (regenerate with reset_workspace.py)
+task4_tools/workspace/
