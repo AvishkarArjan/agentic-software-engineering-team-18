@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    "r5",
+    "r4",
+    "r3",
+    "r2",
+    "r1"
+  ],
+  "end_to_end": [
+    "r5",
+    "r4"
+  ],
+  "criterion": "heldout retrieval recall@5 then precision@5; end-to-end sample overlaps dev, disclosed in report"
+}

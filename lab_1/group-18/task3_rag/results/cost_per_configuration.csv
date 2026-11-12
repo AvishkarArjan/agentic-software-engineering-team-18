@@ -1,0 +1,6 @@
+configuration,retrieval_rewrite_usd,generation_usd,judge_usd,rewrite_prompt_tokens,rewrite_completion_tokens
+r1,0.0,0.0,0.0,0,0
+r2,0.0,0.0,0.0,0,0
+r3,0.0,0.0,0.0,0,0
+r4,0.0,0.005848025000000001,0.009276274999999995,0,0
+r5,0.0160906,0.018199624999999997,0.009851575000000005,23631,27455

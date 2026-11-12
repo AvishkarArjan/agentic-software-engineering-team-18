@@ -1,0 +1,250 @@
+{"id": "dev001", "query": "In PaderQueue 2.x, what was the default value of `ingress.interval_s` (ingress/input interval)?", "duration_s": 2.5223377000074834}
+{"id": "dev002", "query": "What is the PaderQueue error name when the delayed-message queue or scheduler has too many waiting jobs and refuses to accept more?", "duration_s": 4.228567200014368}
+{"id": "dev003", "query": "What error code does PaderQueue report when new clients are rejected by the partition assignment component (consumer assignor or partition allocator) that determines which consumer reads each partition?", "duration_s": 5.215079699992202}
+{"id": "dev004", "query": "Which setting controls the retry count for the dead-letter mechanism or queue—how many times it retries processing failed or unprocessable messages before giving up?", "duration_s": 5.040920100058429}
+{"id": "dev005", "query": "PaderQueue 4.x: What is the default value for the `retention.batch_size` retention setting?", "duration_s": 2.9881013999693096}
+{"id": "dev006", "query": "PaderQueue: What is the default value of `quota.threshold_percent`?", "duration_s": 2.0794357999693602}
+{"id": "dev007", "query": "How do I fix, troubleshoot, or resolve PaderQueue error PQ-E1325?", "duration_s": 2.1665903999237344}
+{"id": "dev008", "query": "PaderQueue 4.x: What is the default value of `metrics.interval_s`?", "duration_s": 2.6568192000268027}
+{"id": "dev009", "query": "What was the default value of `compactor.compression` in PaderQueue 2.x (compactor or compaction setting)?", "duration_s": 3.961322100018151}
+{"id": "dev010", "query": "PaderQueue configuration: What is the default value of `auth.queue_capacity`?", "duration_s": 3.281480500008911}
+{"id": "dev011", "query": "PaderQueue setting for the response timeout: how long the central message-receiving and forwarding process (dispatcher or broker) waits for a reply before marking an attempt as failed?", "duration_s": 3.7309351000003517}
+{"id": "dev012", "query": "Which PaderQueue setting configures the number of parallel threads used by the central process that receives and forwards all messages (central message broker, router, or dispatcher)?", "duration_s": 3.4813380000414327}
+{"id": "dev013", "query": "PaderQueue: What is the default value of `spool.queue_capacity`?", "duration_s": 2.8074966999702156}
+{"id": "dev014", "query": "Default value of `metrics.buffer_bytes` in PaderQueue 2.x?", "duration_s": 4.365860700025223}
+{"id": "dev015", "query": "What permanent fix or resolution does the PaderQueue documentation recommend for the error that caused incident INC-2024-183?", "duration_s": 2.9635643999790773}
+{"id": "dev016", "query": "PaderQueue log error PQ-E3441: recommended troubleshooting steps or remediation?", "duration_s": 3.241057200008072}
+{"id": "dev017", "query": "PaderQueue `pq snapshot describe` `--tenant` flag purpose and behavior (tenant selection or tenant context)", "duration_s": 4.285702100023627}
+{"id": "dev018", "query": "What is the default value of the `coordinator.log_level` configuration setting (coordinator logging level or verbosity)?", "duration_s": 2.6606610000599176}
+{"id": "dev019", "query": "PaderQueue error code reported when the delayed-message component (deferred-message scheduler/queue) keeps retrying and eventually stops trying?", "duration_s": 3.715235900017433}
+{"id": "dev020", "query": "PaderQueue error PQ-E2400: how to fix or troubleshoot?", "duration_s": 3.153177800006233}
+{"id": "dev021", "query": "For PQ-E2602, what is the current default value of the setting that the error catalogue recommends changing?", "duration_s": 2.5216219999128953}
+{"id": "dev022", "query": "Which setting selects the compression algorithm used by the dead-letter queue (DLQ) to shrink data?", "duration_s": 3.2024731000419706}
+{"id": "dev023", "query": "What was the default value of `acktracker.batch_size` (acknowledgment tracker batch size) in PaderQueue 3.x?", "duration_s": 3.427358099957928}
+{"id": "dev024", "query": "What permanent fix does the PaderQueue documentation recommend for the error that caused incident INC-2024-160?", "duration_s": 3.403081599972211}
+{"id": "dev025", "query": "According to PaderQueue documentation, what permanent fix or long-term remedy is recommended for the error that caused incident INC-2024-171?", "duration_s": 3.314621299970895}
+{"id": "dev026", "query": "What was the default value of `snapshotter.max_retries` in PaderQueue 3.x?", "duration_s": 2.6387332000304013}
+{"id": "dev027", "query": "PaderQueue 4.x: What is the default value of `spool.batch_size`?", "duration_s": 3.591942200087942}
+{"id": "dev028", "query": "What is the cost or price of a PaderQueue enterprise license?", "duration_s": 2.8059276998974383}
+{"id": "dev029", "query": "PaderQueue 3.x: What was the default value (default setting) of `broker.buffer_bytes`?", "duration_s": 2.55087470007129}
+{"id": "dev030", "query": "PaderQueue documentation: What permanent fix or remediation is recommended for the error that caused incident INC-2025-175?", "duration_s": 3.9591685000341386}
+{"id": "dev031", "query": "What permanent fix or resolution does the PaderQueue documentation recommend for the error that caused incident INC-2025-146?", "duration_s": 3.4130694000050426}
+{"id": "dev032", "query": "PaderQueue documentation: What permanent fix or root-cause remediation is recommended for the error that caused incident INC-2024-213?", "duration_s": 3.876229799934663}
+{"id": "dev033", "query": "In PaderQueue 3.x, what was the default value of `spool.interval_s` (spool polling interval)?", "duration_s": 3.4661024999804795}
+{"id": "dev034", "query": "Which PaderQueue setting controls the number of parallel threads used by the background job that cleans up and merges old storage files (storage cleanup, compaction, or merge job)?", "duration_s": 3.2412136000348255}
+{"id": "dev035", "query": "PaderQueue release/version in which the default value of `spool.threshold_percent` changed, and its previous default value?", "duration_s": 3.574546799995005}
+{"id": "dev036", "query": "PaderQueue documentation: What permanent fix is recommended for the error that caused incident INC-2024-188?", "duration_s": 2.873370199929923}
+{"id": "dev037", "query": "PaderQueue: In which release/version did the default for `dlq.timeout_ms` change, and what was the previous default?", "duration_s": 3.1640556000638753}
+{"id": "dev038", "query": "PaderQueue documentation: What permanent fix, long-term remediation, or resolution is recommended for the error that caused incident INC-2024-151?", "duration_s": 3.04198739991989}
+{"id": "dev039", "query": "What is the default value of `dlq.buffer_bytes` (dead-letter queue buffer size setting)?", "duration_s": 2.936591700068675}
+{"id": "dev040", "query": "Does PaderQueue support exactly-once message delivery across data centers in a multi-datacenter or distributed deployment?", "duration_s": 2.593637999962084}
+{"id": "dev041", "query": "PaderQueue 2.x default value for `snapshotter.threshold_percent`?", "duration_s": 3.7058704999508336}
+{"id": "dev042", "query": "PaderQueue error catalogue: For PQ-E2051, what setting does it recommend changing, and what is that setting’s current default value?", "duration_s": 4.9552009999752045}
+{"id": "dev043", "query": "PaderQueue configuration: What is the default value of `broker.queue_capacity`?", "duration_s": 2.902027799980715}
+{"id": "dev044", "query": "PaderQueue 2.x: What was the default value of `spool.max_connections` (spool connection limit or maximum connections)?", "duration_s": 4.559209399973042}
+{"id": "dev045", "query": "PaderQueue error catalogue: For PQ-E3221, what is the current default value of the setting (configuration option) it recommends changing?", "duration_s": 4.359124799957499}
+{"id": "dev046", "query": "Which PaderQueue setting controls the fill-level threshold at which the disk-backed staging area for messages not yet persisted begins to slow down (staging queue backpressure)?", "duration_s": 4.420650899992324}
+{"id": "dev047", "query": "For PaderQueue, what is the current default value of the setting (configuration option or parameter) that the error catalogue (error catalog) recommends changing for PQ-E2425?", "duration_s": 2.6004506000317633}
+{"id": "dev048", "query": "Which setting limits how many clients can communicate concurrently with the component that keeps copies of data on other machines (replication or data-replication component)?", "duration_s": 2.1575271000619978}
+{"id": "dev049", "query": "For PaderQueue error PQ-E4798, what is the current default value of the setting (configuration option) that the error catalogue (error reference) recommends changing?", "duration_s": 3.0585509999655187}
+{"id": "dev050", "query": "Which setting controls the log verbosity (chatty or quiet) of the background cleanup/compaction job that merges and removes old storage files?", "duration_s": 2.6457687000511214}
+{"id": "dev051", "query": "PaderQueue error code PQ-E3805: recommended troubleshooting steps or resolution?", "duration_s": 3.207565600052476}
+{"id": "dev052", "query": "What is the release date or expected release schedule for PaderQueue 5.0?", "duration_s": 7.3489492000080645}
+{"id": "dev053", "query": "PaderQueue error catalogue entry PQ-E1441: Which configuration setting (option or parameter) does it recommend changing, and what is that setting’s current default value?", "duration_s": 3.0317625999450684}
+{"id": "dev054", "query": "PaderQueue: What is the default value of `acktracker.worker_threads` (acknowledgment tracker worker thread count)?", "duration_s": 3.1080399999627843}
+{"id": "dev055", "query": "In the current version of PaderQueue, what is the default value of `scheduler.batch_size` (scheduler batch size setting)?", "duration_s": 3.7737935000332072}
+{"id": "dev056", "query": "PaderQueue setting that limits how many clients can concurrently contact the login check (login verification/authentication check) while connecting?", "duration_s": 3.4543101000599563}
+{"id": "dev057", "query": "PaderQueue: What is the name of the error logged when the failed-message parking mechanism (dead-letter handling) keeps retrying and eventually stops trying (retry exhaustion)?", "duration_s": 5.754455099930055}
+{"id": "dev058", "query": "PaderQueue 2.x: What was the default value of `dlq.batch_size`?", "duration_s": 1.7253793999552727}
+{"id": "dev059", "query": "What GDPR (General Data Protection Regulation) certification or privacy compliance certification does PaderQueue have?", "duration_s": 2.425260499934666}
+{"id": "dev060", "query": "PaderQueue documentation: What permanent fix is recommended for the error that caused incident INC-2024-105?", "duration_s": 2.470585700008087}
+{"id": "dev061", "query": "PaderQueue `pq topic restore` `--tenant` flag behavior: what does the tenant flag do?", "duration_s": 3.861017599934712}
+{"id": "dev062", "query": "PaderQueue error PQ-E3177: What should I do to handle or resolve this logged error?", "duration_s": 2.398372199968435}
+{"id": "dev063", "query": "What is the recommended fix or resolution for PaderQueue error PQ-E1163?", "duration_s": 5.752661200007424}
+{"id": "dev064", "query": "PaderQueue `quota.compression` setting: What is its default value?", "duration_s": 5.684038500068709}
+{"id": "dev065", "query": "PaderQueue documentation: What permanent fix is recommended for the error that caused incident INC-2025-101?", "duration_s": 4.268083699978888}
+{"id": "dev066", "query": "PaderQueue setting for the number of parallel worker threads used by the login check/authentication validation for connecting or incoming clients.", "duration_s": 6.600074799964204}
+{"id": "dev067", "query": "PaderQueue 4.x: What is the default value of `acktracker.interval_s` (acknowledgment tracker interval)?", "duration_s": 3.985834499937482}
+{"id": "dev068", "query": "PaderQueue PQ-E4007 error: recommended fix or remediation?", "duration_s": 3.1850767000578344}
+{"id": "dev069", "query": "PaderQueue error catalogue/reference for PQ-E4020: Which configuration setting or parameter does it recommend changing, and what is its current default value?", "duration_s": 4.5828222000272945}
+{"id": "dev070", "query": "Which setting controls the queue fill level (occupancy) at which the backup mechanism that freezes queue state (state snapshot) begins to cause slowdown or performance degradation?", "duration_s": 2.668708399985917}
+{"id": "dev071", "query": "For PaderQueue error PQ-E3177, what is the current default value of the setting (configuration option) the error catalogue recommends changing?", "duration_s": 5.100752800004557}
+{"id": "dev072", "query": "In PaderQueue 3.x, what was the default value of `dlq.timeout_ms` (dead-letter queue timeout in milliseconds)?", "duration_s": 4.896370399976149}
+{"id": "dev073", "query": "PaderQueue 4.x coordinator (`coordinator` service/component): What is the default value of `coordinator.threshold_percent`?", "duration_s": 4.314506199909374}
+{"id": "dev074", "query": "What is the purpose and behavior of the `--label` option (flag) in the `pq tenant export` command?", "duration_s": 4.3017953999806195}
+{"id": "dev075", "query": "PaderQueue error PQ-E4839: fix, troubleshoot, resolve.", "duration_s": 2.7103085999842733}
+{"id": "dev076", "query": "What is the name of the PaderQueue error when HTTP publishing endpoints on two machines cannot read each other’s data because they pack, serialize, or encode it differently?", "duration_s": 4.060052099986933}
+{"id": "dev077", "query": "PaderQueue PQ-E2425 error code: What should I do when this error is logged?", "duration_s": 3.6786859000567347}
+{"id": "dev078", "query": "Which PaderQueue release changed the default value of `partitioner.max_retries`, and what was its previous default?", "duration_s": 3.431856199982576}
+{"id": "dev079", "query": "PaderQueue PQ-E1799: recommended fix or remediation?", "duration_s": 2.8007868999848142}
+{"id": "dev080", "query": "PaderQueue: How do I fix or resolve error PQ-E3215?", "duration_s": 1.8807046000147238}
+{"id": "dev081", "query": "PaderQueue 3.x default value for `dlq.max_retries` (dead-letter queue maximum retries)", "duration_s": 3.5860024999128655}
+{"id": "dev082", "query": "PaderQueue `ingress.worker_threads` configuration: What is its default value? What are the default ingress worker thread or worker concurrency settings?", "duration_s": 4.014391700038686}
+{"id": "dev083", "query": "What permanent fix does PaderQueue documentation recommend for the error that caused incident INC-2024-147?", "duration_s": 3.3348285000538453}
+{"id": "dev084", "query": "Which PaderQueue setting controls how many messages the central message-receiving and forwarding process (broker or dispatcher) handles in one batch?", "duration_s": 4.483633299940266}
+{"id": "dev085", "query": "Which PaderQueue release changed the default value of `spool.max_connections`, and what was its previous default?", "duration_s": 2.4924631000030786}
+{"id": "dev086", "query": "PaderQueue: What is the behavior or purpose of the `--include-internal` flag in `pq queue describe`?", "duration_s": 2.8445984999416396}
+{"id": "dev087", "query": "In PaderQueue, which setting limits how many clients can concurrently communicate with the delayed-message component (the component that holds or schedules messages for later delivery)?", "duration_s": 3.592852299916558}
+{"id": "dev088", "query": "PaderQueue: In which release did the default value of `snapshotter.queue_capacity` change, and what was its previous default?", "duration_s": 2.7476615000050515}
+{"id": "dev089", "query": "PaderQueue documentation: recommended permanent fix for the error or failure that caused incident INC-2024-166.", "duration_s": 4.605862000025809}
+{"id": "dev090", "query": "For PQ-E1465, what is the current default value of the setting recommended for change in the error catalogue (error catalog/reference)?", "duration_s": 3.121129000093788}
+{"id": "dev091", "query": "PaderQueue `pq token move` `--max-parallel` flag: what does it do? What concurrency or parallelism does it control?", "duration_s": 2.7909501999383792}
+{"id": "dev092", "query": "PaderQueue documentation: What permanent fix or long-term remediation is recommended for the error that caused incident INC-2024-135?", "duration_s": 3.3303626000415534}
+{"id": "dev093", "query": "PaderQueue 3.x: default value of `scheduler.batch_size` (scheduler/job scheduler setting)?", "duration_s": 2.9861569000640884}
+{"id": "dev094", "query": "PaderQueue: What is the default value of `ingress.enabled` (the Ingress configuration or Ingress feature toggle)?", "duration_s": 3.6632243999047205}
+{"id": "dev095", "query": "How to fix PaderQueue error PQ-E2395?", "duration_s": 2.5930341000203043}
+{"id": "dev096", "query": "PaderQueue 3.x: What was the default value of `dlq.worker_threads` (dead-letter queue worker thread count)?", "duration_s": 3.1010726999957114}
+{"id": "dev097", "query": "Which Java client library version is compatible with PaderQueue 3.1 (supported client version)?", "duration_s": 3.574345099972561}
+{"id": "dev098", "query": "Does the PaderQueue web console (web UI) support single sign-on (SSO) with SAML?", "duration_s": 3.3683436999563128}
+{"id": "dev099", "query": "What permanent fix or remediation does the PaderQueue documentation recommend for the error that caused incident INC-2024-136?", "duration_s": 3.371924399980344}
+{"id": "dev100", "query": "In which PaderQueue release/version did the default value of `partitioner.compression` change, and what was its previous default?", "duration_s": 4.27101390005555}
+{"id": "dev101", "query": "PaderQueue: Which release changed the default of `auth.interval_s`, and what was its previous default?", "duration_s": 2.9079787998925894}
+{"id": "dev102", "query": "PaderQueue: What is the error name when the expired-message cleanup or expiration-removal component has too many waiting jobs and refuses to accept more?", "duration_s": 4.02819520002231}
+{"id": "dev103", "query": "PaderQueue: What is the recommended fix or remediation for error code PQ-E1019?", "duration_s": 2.950967099983245}
+{"id": "dev104", "query": "PaderQueue CLI `pq node export` `--since` flag: purpose and behavior.", "duration_s": 2.6478389999829233}
+{"id": "dev105", "query": "PaderQueue: Which setting disables the backup mechanism that completely freezes queue state (queue-state backup or snapshot)?", "duration_s": 3.822719300049357}
+{"id": "dev106", "query": "PaderQueue `scheduler.enabled` setting: default value (scheduler/queue scheduler)?", "duration_s": 2.7126637999899685}
+{"id": "dev107", "query": "How to fix PaderQueue error PQ-E1295?", "duration_s": 4.576736000017263}
+{"id": "dev108", "query": "PaderQueue 2.x: What was the default value of `replicator.worker_threads` (replicator worker threads / worker concurrency)?", "duration_s": 3.4990693000145257}
+{"id": "dev109", "query": "Which PaderQueue setting controls the retry count for the disk-based staging area (disk-backed message staging buffer/queue) of messages not yet persisted before it gives up?", "duration_s": 3.5346309000160545}
+{"id": "dev110", "query": "PaderQueue: Which release changed the default of `metrics.interval_s`, and what was its previous default value?", "duration_s": 3.087172399973497}
+{"id": "dev111", "query": "What is the behavior of the `--force` flag/option for `pq snapshot create`?", "duration_s": 2.4604172999970615}
+{"id": "dev112", "query": "Which PaderQueue setting controls how much memory the central message-receiving and forwarding process (broker, router, or dispatcher) reserves for buffering?", "duration_s": 5.03107310004998}
+{"id": "dev113", "query": "PaderQueue default value for `auth.buffer_bytes`?", "duration_s": 3.0672043000813574}
+{"id": "dev114", "query": "PaderQueue MQTT bridge maximum supported message size (maximum payload size/limit)?", "duration_s": 3.3792605999624357}
+{"id": "dev115", "query": "Which PaderQueue setting controls the retry count before giving up on bookkeeping reader-confirmed messages (tracking reader acknowledgments)?", "duration_s": 3.7166357999667525}
+{"id": "dev116", "query": "What does the `--label` flag (label/tag option) of `pq node export` do?", "duration_s": 4.791518699959852}
+{"id": "dev117", "query": "Which setting limits the number of concurrent clients that can communicate with the backup mechanism for freezing queue state in parallel (parallel queue snapshot/backup)?", "duration_s": 4.846110800048336}
+{"id": "dev118", "query": "What is the current default value of the setting (configuration option) that the error catalogue recommends changing for PQ-E3792?", "duration_s": 2.7930790999671444}
+{"id": "dev119", "query": "For PaderQueue error PQ-E1799, what is the current default value of the setting the error catalogue (error catalog) recommends changing?", "duration_s": 5.218158400035463}
+{"id": "dev120", "query": "PaderQueue 2.x: What was the default value of `partitioner.buffer_bytes` (partitioner buffer size in bytes)?", "duration_s": 4.5221677999943495}
+{"id": "dev121", "query": "PaderQueue `pq schedule create` `--timeout` flag: what does it do (timeout or time limit behavior)?", "duration_s": 5.366361499996856}
+{"id": "dev122", "query": "PaderQueue release history: In which release/version did the default value of `replicator.max_connections` change, and what was its previous value?", "duration_s": 2.437026400002651}
+{"id": "dev123", "query": "PaderQueue: Which setting controls the memory reserved for buffering by the component that keeps copies of data on other machines (replication component, replica manager)?", "duration_s": 2.491150700021535}
+{"id": "dev124", "query": "PaderQueue: How do I fix error PQ-E4844?", "duration_s": 4.8139716000296175}
+{"id": "dev125", "query": "PaderQueue 4.x: What is the default value of `scheduler.threshold_percent`?", "duration_s": 6.820316200028174}
+{"id": "dev126", "query": "For error PQ-E4875, what is the current default value of the setting (configuration option or parameter) that the error catalogue recommends changing?", "duration_s": 3.6055549000157043}
+{"id": "dev127", "query": "Which PaderQueue release changed the default value of `replicator.worker_threads` (replicator worker threads), and what was the previous default?", "duration_s": 3.006292499951087}
+{"id": "dev128", "query": "PaderQueue documentation: What permanent fix is recommended for the error that caused incident INC-2025-162?", "duration_s": 2.7716108999447897}
+{"id": "dev129", "query": "What is the current default value of the setting that the PaderQueue error catalogue (error catalog/reference) recommends changing for PQ-E4582?", "duration_s": 8.539493600022979}
+{"id": "dev130", "query": "PaderQueue error code when the login check rejects new connecting clients?", "duration_s": 7.369715499924496}
+{"id": "dev131", "query": "What is the default value of `compactor.interval_s` (compactor interval or compaction interval) in the current version of PaderQueue?", "duration_s": 2.4819296000059694}
+{"id": "dev132", "query": "What was the default value of `quota.batch_size` in PaderQueue 2.x?", "duration_s": 3.0167645999463275}
+{"id": "dev133", "query": "What was the default value of `retention.worker_threads` (retention worker thread-pool setting) in PaderQueue 2.x?", "duration_s": 3.0530597999459133}
+{"id": "dev134", "query": "PaderQueue log error PQ-E2622: recommended troubleshooting, resolution, or remediation steps?", "duration_s": 7.67662719998043}
+{"id": "dev135", "query": "How do I fix PaderQueue error PQ-E4159?", "duration_s": 2.871997300069779}
+{"id": "dev136", "query": "PaderQueue documentation: What permanent fix is recommended for the error that caused incident INC-2025-202?", "duration_s": 7.398643099935725}
+{"id": "dev137", "query": "PaderQueue default value for `coordinator.timeout_ms` (default setting/configuration)?", "duration_s": 4.619828199967742}
+{"id": "dev138", "query": "What was the default value of `coordinator.buffer_bytes` (coordinator buffer size in bytes) in PaderQueue 3.x?", "duration_s": 5.599829599959776}
+{"id": "dev139", "query": "PaderQueue 4.x: What is the default value of `partitioner.batch_size` (partitioner batch size)?", "duration_s": 5.363757099956274}
+{"id": "dev140", "query": "In PaderQueue, what is the name of the error in the logs when the mechanism that parks messages nobody could process (dead-letter queue or failed-message queue) deliberately slows requests down?", "duration_s": 3.5185269999783486}
+{"id": "dev141", "query": "PaderQueue release/version in which the default for `retention.batch_size` changed, and what the previous default was.", "duration_s": 2.3743356000632048}
+{"id": "dev142", "query": "PaderQueue: What is the default value of `metrics.enabled`?", "duration_s": 4.9758271999889985}
+{"id": "dev143", "query": "How to fix or resolve PaderQueue error PQ-E1549?", "duration_s": 2.360797700006515}
+{"id": "dev144", "query": "PaderQueue: Which setting controls the interval or sleep delay between background cycles of the delayed-message component (scheduled/deferred message handler) that holds messages until a later time?", "duration_s": 3.1549154000822455}
+{"id": "dev145", "query": "PaderQueue: What is the recommended fix or remediation for error PQ-E4708?", "duration_s": 3.2795389000093564}
+{"id": "dev146", "query": "PaderQueue setting for how long the per-customer capacity limiter (rate limiter or quota component) waits for a response before counting an attempt as failed?", "duration_s": 4.647863499936648}
+{"id": "dev147", "query": "PaderQueue setting for the acknowledgment-tracking timeout: how long bookkeeping of reader-confirmed messages waits for a response before marking the attempt as failed.", "duration_s": 2.7038345999317244}
+{"id": "dev148", "query": "Does PaderQueue support COBOL-written consumers (consumer clients or consumer implementations)?", "duration_s": 3.25353260000702}
+{"id": "dev149", "query": "PaderQueue error PQ-E1783: What should I do to troubleshoot or resolve it?", "duration_s": 2.5333899999968708}
+{"id": "dev150", "query": "PaderQueue error catalogue PQ-E3891: What setting does it recommend changing, and what is its current default value?", "duration_s": 3.849828099948354}
+{"id": "test001", "query": "PaderQueue: What does the `--include-internal` flag do for `pq topic purge` (topic purge/cleanup)?", "duration_s": 4.782371700042859}
+{"id": "test002", "query": "PaderQueue error PQ-E2187: What troubleshooting or remediation steps should I take?", "duration_s": 3.215862700017169}
+{"id": "test003", "query": "PaderQueue (`pq`) `snapshot purge` command: what does the `--since` flag do (its behavior or function)?", "duration_s": 5.092457400052808}
+{"id": "test004", "query": "Which error code does PaderQueue report when the component that assigns partitions to consumers (consumer-partition assigner or partition assignment component) runs out of memory space for buffering?", "duration_s": 3.2255461000604555}
+{"id": "test005", "query": "PaderQueue: In which release/version did the default value of `partitioner.queue_capacity` change, and what was the previous default?", "duration_s": 2.8624342000111938}
+{"id": "test006", "query": "What permanent fix does PaderQueue documentation recommend for the error that caused incident INC-2024-138?", "duration_s": 3.221940799965523}
+{"id": "test007", "query": "For PQ-E3642, what is the current default value of the setting (configuration parameter) that the error catalogue (error catalog) recommends changing?", "duration_s": 2.6473851999035105}
+{"id": "test008", "query": "PaderQueue 3.x: What was the default value of `auth.max_retries` (authentication retry limit)?", "duration_s": 2.4212780999951065}
+{"id": "test009", "query": "How do I fix or resolve PaderQueue error PQ-E2760?", "duration_s": 2.7530537999700755}
+{"id": "test010", "query": "What permanent fix does the PaderQueue documentation recommend for the error that caused incident INC-2025-168?", "duration_s": 2.663405800005421}
+{"id": "test011", "query": "PaderQueue PQ-E4934 error catalogue: What is the current default value of the setting/configuration parameter it recommends changing?", "duration_s": 3.228345299954526}
+{"id": "test012", "query": "For PaderQueue error PQ-E1547, what is the current default value of the setting (configuration option) that the error catalogue (error catalog) recommends changing?", "duration_s": 3.6079706999007612}
+{"id": "test013", "query": "PaderQueue: What is the default value of `acktracker.compression` (ack tracker compression setting)?", "duration_s": 3.708049500011839}
+{"id": "test014", "query": "What permanent fix (long-term remediation) does the PaderQueue documentation recommend for the error that caused incident INC-2025-131?", "duration_s": 5.018798599950969}
+{"id": "test015", "query": "What permanent fix does the PaderQueue documentation recommend for the error that caused incident INC-2024-104?", "duration_s": 4.049916799995117}
+{"id": "test016", "query": "PaderQueue: What is the error name when a request fails because the background job that cleans up and merges old storage files (storage cleanup/compaction) is switched off or disabled?", "duration_s": 3.737676599994302}
+{"id": "test017", "query": "PaderQueue error name when the HTTP publishing endpoint (web endpoint) has too many waiting/queued jobs and refuses or rejects additional jobs?", "duration_s": 4.566171600017697}
+{"id": "test018", "query": "PaderQueue documentation: What permanent fix or remediation is recommended for the error that caused incident INC-2025-182?", "duration_s": 2.5362640999956056}
+{"id": "test019", "query": "What is the current default value of the configuration setting that PaderQueue’s error catalogue recommends changing for PQ-E4371?", "duration_s": 3.105431400006637}
+{"id": "test020", "query": "In PaderQueue, what is the current default value of the setting that the error catalogue (error catalog or error reference) recommends changing for PQ-E2451?", "duration_s": 4.126086700009182}
+{"id": "test021", "query": "PaderQueue: What is the default value of `partitioner.timeout_ms` (partitioner timeout setting)?", "duration_s": 2.759487099945545}
+{"id": "test022", "query": "PaderQueue 2.x: What was the default value of `snapshotter.max_connections` (snapshotter/snapshot component connection limit)?", "duration_s": 2.974949099938385}
+{"id": "test023", "query": "How to fix the PaderQueue error PQ-E2545?", "duration_s": 3.0054612000240013}
+{"id": "test024", "query": "For PaderQueue error PQ-E3321, what is the current default value of the setting the error catalogue (error catalog/reference) recommends changing?", "duration_s": 2.668929999927059}
+{"id": "test025", "query": "PaderQueue error PQ-E2451: What should I do to troubleshoot or resolve it?", "duration_s": 2.5988477000501007}
+{"id": "test026", "query": "What is the default value of `scheduler.worker_threads` (scheduler worker-thread count / thread-pool size)?", "duration_s": 3.108851999975741}
+{"id": "test027", "query": "In PaderQueue, what is the name of the error when the data replication component (replicator or replica manager), which keeps copies of data on other machines, has too many queued jobs and refuses additional jobs?", "duration_s": 4.3492805999703705}
+{"id": "test028", "query": "PaderQueue: Which setting controls the memory reserved for buffering by the logic that distributes messages across shards (sharding or partitioning)?", "duration_s": 3.1480450000381097}
+{"id": "test029", "query": "PaderQueue: In which release/version did the default value of the `spool.max_retries` configuration option change, and what was its previous default?", "duration_s": 3.946024800068699}
+{"id": "test030", "query": "PaderQueue: In which release/version did the default value of `broker.timeout_ms` change, and what was its previous value?", "duration_s": 4.303550000069663}
+{"id": "test031", "query": "PaderQueue: In which release/version did the default value of `ingress.interval_s` change, and what was its previous default?", "duration_s": 2.780745099997148}
+{"id": "test032", "query": "What is the current default value of the configuration setting (option) that the error catalogue recommends changing for PQ-E3239?", "duration_s": 3.2271033000433818}
+{"id": "test033", "query": "PaderQueue PQ-E3859: recommended fix or remediation?", "duration_s": 2.5262401000363752}
+{"id": "test034", "query": "How do I fix PaderQueue error PQ-E3319?", "duration_s": 2.668239700025879}
+{"id": "test035", "query": "PaderQueue recommended fix or remediation for error code PQ-E1441?", "duration_s": 2.8161505000898615}
+{"id": "test036", "query": "PaderQueue: What is the default value of `broker.max_connections` (maximum broker connection limit)?", "duration_s": 3.5460600999649614}
+{"id": "test037", "query": "In PaderQueue, what is the default value (default setting) of `replicator.max_retries`?", "duration_s": 4.5101134000578895}
+{"id": "test038", "query": "How do I fix or resolve PaderQueue error PQ-E4425?", "duration_s": 3.4579829999711365}
+{"id": "test039", "query": "In PaderQueue, which setting controls the memory reserved for buffering by the delayed-message or scheduled-message component that holds messages until a later time?", "duration_s": 3.602230600081384}
+{"id": "test040", "query": "In PaderQueue, what is the error name for the reader/consumer message-acknowledgment tracking operation timing out while waiting for a response?", "duration_s": 3.9021358999889344}
+{"id": "test041", "query": "Which error code does PaderQueue report when the central message-receiving and forwarding process (dispatcher/relay) deliberately slows requests down?", "duration_s": 2.2100722000468522}
+{"id": "test042", "query": "What is the default value of PaderQueue’s `auth.compression` setting (authentication compression)?", "duration_s": 3.141529700020328}
+{"id": "test043", "query": "In PaderQueue, for error PQ-E1944, what is the current default value of the setting or configuration option that the error catalogue recommends changing?", "duration_s": 3.1137526999227703}
+{"id": "test044", "query": "PaderQueue: What is the default value of `spool.worker_threads` (spool worker thread count)?", "duration_s": 2.8298049999866635}
+{"id": "test045", "query": "Which error code does PaderQueue report when the replication component (data replication or replica management subsystem) that keeps copies of data on other machines times out waiting for a response?", "duration_s": 4.23750409996137}
+{"id": "test046", "query": "Default value of `partitioner.compression` (partitioner compression setting) in PaderQueue 3.x?", "duration_s": 2.541611799970269}
+{"id": "test047", "query": "PaderQueue: In which release/version did the default for `compactor.worker_threads` change, and what was its previous default? (compactor/compaction worker threads)", "duration_s": 2.8741387999616563}
+{"id": "test048", "query": "PaderQueue error catalogue PQ-E4712: Which setting does the error recommend changing, and what is its current default value?", "duration_s": 3.5081205000169575}
+{"id": "test049", "query": "How to fix PaderQueue error PQ-E3391?", "duration_s": 2.316710500046611}
+{"id": "test050", "query": "Which setting controls the log verbosity (log level) of the HTTP publish endpoint used by clients to publish messages over HTTP?", "duration_s": 3.2397678999695927}
+{"id": "test051", "query": "PaderQueue `partitioner.max_connections`: what is the default value?", "duration_s": 3.0302153000375256}
+{"id": "test052", "query": "PaderQueue PQ-E3642 error: what troubleshooting or remediation should I perform?", "duration_s": 2.806159400031902}
+{"id": "test053", "query": "What was the default value of `retention.batch_size` (retention batch-size setting) in PaderQueue 3.x?", "duration_s": 3.969056500005536}
+{"id": "test054", "query": "What is the default value of `partitioner.queue_capacity` (partitioner/partitioning component queue capacity) in the current version of PaderQueue?", "duration_s": 2.671699999948032}
+{"id": "test055", "query": "PaderQueue: What is the error name when two machines’ disk-based staging areas for messages not yet persisted cannot read each other’s data because they use different packing or serialization formats?", "duration_s": 4.524296900024638}
+{"id": "test056", "query": "What was the default value of `retention.threshold_percent` (retention threshold percentage) in PaderQueue 2.x?", "duration_s": 3.5368829000508413}
+{"id": "test057", "query": "How do I fix PaderQueue error PQ-E4048?", "duration_s": 2.433146300027147}
+{"id": "test058", "query": "PaderQueue `pq snapshot restore --force` flag behavior: what does the force option do during snapshot restoration?", "duration_s": 4.281877100002021}
+{"id": "test059", "query": "Which PaderQueue setting caps the number of jobs waiting inside the component that assigns partitions to consumers (consumer–partition dispatcher, router, or coordinator)?", "duration_s": 5.069851299980655}
+{"id": "test060", "query": "In PaderQueue 4.x, what is the default value of `dlq.batch_size` (dead-letter queue batch size)?", "duration_s": 4.9897995999781415}
+{"id": "test061", "query": "PaderQueue documentation: What permanent fix is recommended for the error that caused incident INC-2025-220?", "duration_s": 4.886023200000636}
+{"id": "test062", "query": "PaderQueue error code for a request failure when the component that assigns partitions to consumers is switched off (partition assignment component, consumer-partition assigner/coordinator).", "duration_s": 2.727137199952267}
+{"id": "test063", "query": "Which PaderQueue setting determines the queue fill level or occupancy threshold at which expired-message removal, discard, or cleanup begins to slow down or throttle?", "duration_s": 5.537606699974276}
+{"id": "test064", "query": "PaderQueue: What does the `--include-internal` flag do in `pq snapshot purge`? What internal snapshots or records does it include when purging, deleting, or cleaning up snapshots?", "duration_s": 3.033861199975945}
+{"id": "test065", "query": "PaderQueue: In which release/version did the default value of `retention.threshold_percent` change, and what was its previous default?", "duration_s": 4.194527100073174}
+{"id": "test066", "query": "PaderQueue `pq snapshot list` `--max-parallel` flag: purpose and behavior; CLI option, concurrency, parallel operations.", "duration_s": 6.033480299985968}
+{"id": "test067", "query": "PaderQueue: What is the default value of `metrics.queue_capacity` (metrics queue capacity/size)?", "duration_s": 2.6635549999773502}
+{"id": "test068", "query": "What was the default value of `retention.log_level` in PaderQueue 3.x?", "duration_s": 2.1605091999517754}
+{"id": "test069", "query": "What does the `--retain-days` flag (retention period) of `pq topic restore` do?", "duration_s": 2.006589900003746}
+{"id": "test070", "query": "What permanent fix or long-term remediation does the PaderQueue documentation recommend for the error that caused incident INC-2025-173?", "duration_s": 3.0997776000294834}
+{"id": "test071", "query": "PaderQueue: In which release or version did the default value of `coordinator.queue_capacity` change, and what was its previous default?", "duration_s": 4.096891200053506}
+{"id": "test072", "query": "In which PaderQueue release/version did the default for `spool.compression` change, and what was the previous default? (spool/queue storage compression)", "duration_s": 5.596150400000624}
+{"id": "test073", "query": "PaderQueue setting for the number of retries (maximum attempts) before giving up when distributing or routing messages across shards.", "duration_s": 3.543051899992861}
+{"id": "test074", "query": "Which setting selects the algorithm used by the component that determines which consumer reads each partition (partition assignor or consumer-group partition assignment strategy) to shrink/compress data?", "duration_s": 4.942339700064622}
+{"id": "test075", "query": "PaderQueue log error PQ-E4590: what troubleshooting or resolution steps should I take?", "duration_s": 3.1930401999270543}
+{"id": "test076", "query": "PaderQueue 4.x: What is the default value of `compactor.compression` (compactor compression setting)?", "duration_s": 3.8602804000256583}
+{"id": "test077", "query": "PaderQueue documentation: How to migrate from Apache Kafka, a distributed message broker and event-streaming platform, to PaderQueue? Migration guide or transition steps.", "duration_s": 2.774124800111167}
+{"id": "test078", "query": "PaderQueue error code reported when the component that assigns partitions to consumers (consumer-partition assignment or partition allocation component) deliberately slows down or delays requests?", "duration_s": 3.608517999993637}
+{"id": "test079", "query": "In the current version of PaderQueue, what is the default value of `spool.log_level` (spool logging level)?", "duration_s": 3.6582097000209615}
+{"id": "test080", "query": "Default value of `snapshotter.batch_size` in PaderQueue 3.x?", "duration_s": 2.622501700068824}
+{"id": "test081", "query": "PaderQueue: In which release/version did the default value of `retention.log_level` change, and what was its previous default?", "duration_s": 2.955440399935469}
+{"id": "test082", "query": "PaderQueue release/version that changed the default value of `acktracker.batch_size` (acknowledgment tracker batch size), and its previous default.", "duration_s": 3.1676175999455154}
+{"id": "test083", "query": "PaderQueue setting limiting the number of concurrent clients/connections to the dead-letter queue or failed-message mechanism that stores messages that could not be processed.", "duration_s": 3.024332599947229}
+{"id": "test084", "query": "In PaderQueue, what is the current default value of the configuration setting that the error catalogue recommends changing for PQ-E3441?", "duration_s": 3.2857870999723673}
+{"id": "test085", "query": "What is the default value of PaderQueue’s `retention.compression` setting (retention compression option)?", "duration_s": 4.035936699947342}
+{"id": "test086", "query": "PaderQueue PQ-E4371: recommended fix or remediation?", "duration_s": 2.1787498000776395}
+{"id": "test087", "query": "PaderQueue `pq tenant describe` `--max-parallel` flag: what does it do? What is its purpose and behavior?", "duration_s": 3.367911500041373}
+{"id": "test088", "query": "In the current PaderQueue version, what is the default value of `spool.max_connections` (spool connection limit)?", "duration_s": 3.5102853999705985}
+{"id": "test089", "query": "PaderQueue: What is the default value of `metrics.worker_threads`? (default setting/configuration value)", "duration_s": 3.732596299960278}
+{"id": "test090", "query": "PaderQueue PQ-E1736 error catalogue: What is the current default value of the recommended setting/configuration option to change?", "duration_s": 4.243311499943957}
+{"id": "test091", "query": "PaderQueue 3.x: What was the default value of `coordinator.batch_size` (coordinator batch size / batch-processing size)?", "duration_s": 2.8739803000353277}
+{"id": "test092", "query": "PaderQueue: How to fix error PQ-E2508?", "duration_s": 3.109597699949518}
+{"id": "test093", "query": "PaderQueue documentation: What is the current default value of the setting/configuration option that the error catalogue (error catalog) recommends changing for PQ-E2771?", "duration_s": 2.8743465999141335}
+{"id": "test094", "query": "In the current version of PaderQueue, what is the default value of `auth.log_level` (authentication logging level)?", "duration_s": 2.3118439000099897}
+{"id": "test095", "query": "PaderQueue documentation: Which release/version changed the default value of `compactor.log_level`, and what was its previous default?", "duration_s": 3.03718270000536}
+{"id": "test096", "query": "What permanent fix or long-term remediation does the PaderQueue documentation recommend for the error that caused incident INC-2024-103?", "duration_s": 3.8576068999245763}
+{"id": "test097", "query": "PaderQueue: In which release/version did the default value of `retention.worker_threads` change, and what was the previous default?", "duration_s": 2.8559117999393493}
+{"id": "test098", "query": "PaderQueue setting that determines how much memory the HTTP publishing endpoint (web endpoint, HTTP ingress) reserves for buffering client-published messages.", "duration_s": 3.6168408000376076}
+{"id": "test099", "query": "PaderQueue troubleshooting: How do I fix error PQ-E2628?", "duration_s": 3.4550204999977723}
+{"id": "test100", "query": "Which setting controls the pause, interval, or delay between background cycles of the component that prevents a single customer or client from consuming too much capacity (rate limiter, quota limiter, or throttling component)?", "duration_s": 3.4774777999846265}

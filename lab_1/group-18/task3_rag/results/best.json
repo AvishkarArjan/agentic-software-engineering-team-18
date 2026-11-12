@@ -1,0 +1,8 @@
+{
+  "configuration": "r5",
+  "mean_correctness": {
+    "r5": 0.78,
+    "r4": 0.76
+  },
+  "selection": "dev judge correctness, heldout retrieval rank breaks ties; test ground truth never used"
+}

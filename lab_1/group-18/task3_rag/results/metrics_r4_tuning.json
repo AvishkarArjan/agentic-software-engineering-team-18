@@ -1,0 +1,275 @@
+{
+  "summary": {
+    "k": 5,
+    "overall": {
+      "n": 40,
+      "context_recall": 0.7375,
+      "context_precision": 0.7581249999999999
+    },
+    "per_category": {
+      "identifier": {
+        "n": 10,
+        "context_recall": 1.0,
+        "context_precision": 0.8583333333333334
+      },
+      "multi-hop": {
+        "n": 10,
+        "context_recall": 0.45,
+        "context_precision": 0.9
+      },
+      "paraphrase": {
+        "n": 10,
+        "context_recall": 0.7,
+        "context_precision": 0.4741666666666666
+      },
+      "version": {
+        "n": 10,
+        "context_recall": 0.8,
+        "context_precision": 0.8
+      }
+    },
+    "missing_ids": []
+  },
+  "per_question": [
+    {
+      "id": "dev001",
+      "category": "version",
+      "context_recall": 1.0,
+      "context_precision": 1.0
+    },
+    {
+      "id": "dev017",
+      "category": "identifier",
+      "context_recall": 1.0,
+      "context_precision": 1.0
+    },
+    {
+      "id": "dev019",
+      "category": "paraphrase",
+      "context_recall": 0.0,
+      "context_precision": 0.0
+    },
+    {
+      "id": "dev022",
+      "category": "paraphrase",
+      "context_recall": 1.0,
+      "context_precision": 0.3333333333333333
+    },
+    {
+      "id": "dev025",
+      "category": "multi-hop",
+      "context_recall": 0.5,
+      "context_precision": 1.0
+    },
+    {
+      "id": "dev027",
+      "category": "identifier",
+      "context_recall": 1.0,
+      "context_precision": 1.0
+    },
+    {
+      "id": "dev031",
+      "category": "multi-hop",
+      "context_recall": 0.5,
+      "context_precision": 1.0
+    },
+    {
+      "id": "dev032",
+      "category": "multi-hop",
+      "context_recall": 0.5,
+      "context_precision": 1.0
+    },
+    {
+      "id": "dev034",
+      "category": "paraphrase",
+      "context_recall": 1.0,
+      "context_precision": 0.75
+    },
+    {
+      "id": "dev035",
+      "category": "version",
+      "context_recall": 0.0,
+      "context_precision": 0.0
+    },
+    {
+      "id": "dev038",
+      "category": "multi-hop",
+      "context_recall": 0.5,
+      "context_precision": 1.0
+    },
+    {
+      "id": "dev042",
+      "category": "multi-hop",
+      "context_recall": 0.0,
+      "context_precision": 0.0
+    },
+    {
+      "id": "dev044",
+      "category": "version",
+      "context_recall": 1.0,
+      "context_precision": 1.0
+    },
+    {
+      "id": "dev045",
+      "category": "multi-hop",
+      "context_recall": 0.5,
+      "context_precision": 1.0
+    },
+    {
+      "id": "dev051",
+      "category": "identifier",
+      "context_recall": 1.0,
+      "context_precision": 1.0
+    },
+    {
+      "id": "dev055",
+      "category": "identifier",
+      "context_recall": 1.0,
+      "context_precision": 1.0
+    },
+    {
+      "id": "dev056",
+      "category": "paraphrase",
+      "context_recall": 0.0,
+      "context_precision": 0.0
+    },
+    {
+      "id": "dev058",
+      "category": "version",
+      "context_recall": 1.0,
+      "context_precision": 1.0
+    },
+    {
+      "id": "dev060",
+      "category": "multi-hop",
+      "context_recall": 0.5,
+      "context_precision": 1.0
+    },
+    {
+      "id": "dev063",
+      "category": "identifier",
+      "context_recall": 1.0,
+      "context_precision": 0.25
+    },
+    {
+      "id": "dev065",
+      "category": "multi-hop",
+      "context_recall": 0.5,
+      "context_precision": 1.0
+    },
+    {
+      "id": "dev072",
+      "category": "version",
+      "context_recall": 1.0,
+      "context_precision": 1.0
+    },
+    {
+      "id": "dev074",
+      "category": "identifier",
+      "context_recall": 1.0,
+      "context_precision": 1.0
+    },
+    {
+      "id": "dev077",
+      "category": "identifier",
+      "context_recall": 1.0,
+      "context_precision": 0.3333333333333333
+    },
+    {
+      "id": "dev084",
+      "category": "paraphrase",
+      "context_recall": 1.0,
+      "context_precision": 0.3333333333333333
+    },
+    {
+      "id": "dev093",
+      "category": "version",
+      "context_recall": 1.0,
+      "context_precision": 1.0
+    },
+    {
+      "id": "dev096",
+      "category": "version",
+      "context_recall": 1.0,
+      "context_precision": 1.0
+    },
+    {
+      "id": "dev099",
+      "category": "multi-hop",
+      "context_recall": 0.5,
+      "context_precision": 1.0
+    },
+    {
+      "id": "dev104",
+      "category": "identifier",
+      "context_recall": 1.0,
+      "context_precision": 1.0
+    },
+    {
+      "id": "dev111",
+      "category": "identifier",
+      "context_recall": 1.0,
+      "context_precision": 1.0
+    },
+    {
+      "id": "dev112",
+      "category": "paraphrase",
+      "context_recall": 1.0,
+      "context_precision": 0.325
+    },
+    {
+      "id": "dev116",
+      "category": "identifier",
+      "context_recall": 1.0,
+      "context_precision": 1.0
+    },
+    {
+      "id": "dev120",
+      "category": "version",
+      "context_recall": 1.0,
+      "context_precision": 1.0
+    },
+    {
+      "id": "dev122",
+      "category": "version",
+      "context_recall": 0.0,
+      "context_precision": 0.0
+    },
+    {
+      "id": "dev123",
+      "category": "paraphrase",
+      "context_recall": 1.0,
+      "context_precision": 1.0
+    },
+    {
+      "id": "dev126",
+      "category": "multi-hop",
+      "context_recall": 0.5,
+      "context_precision": 1.0
+    },
+    {
+      "id": "dev130",
+      "category": "paraphrase",
+      "context_recall": 1.0,
+      "context_precision": 1.0
+    },
+    {
+      "id": "dev133",
+      "category": "version",
+      "context_recall": 1.0,
+      "context_precision": 1.0
+    },
+    {
+      "id": "dev140",
+      "category": "paraphrase",
+      "context_recall": 0.0,
+      "context_precision": 0.0
+    },
+    {
+      "id": "dev144",
+      "category": "paraphrase",
+      "context_recall": 1.0,
+      "context_precision": 1.0
+    }
+  ]
+}

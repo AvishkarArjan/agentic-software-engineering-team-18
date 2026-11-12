@@ -1,0 +1,47 @@
+{
+  "embedding": {
+    "calls": 131,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "reasoning_tokens": 0,
+    "cost_usd": 0.0,
+    "cost_missing": 0,
+    "cache_indicator_true": 0
+  },
+  "gateway": {
+    "calls": 2,
+    "prompt_tokens": 10,
+    "completion_tokens": 5,
+    "reasoning_tokens": 0,
+    "cost_usd": 3.4999999999999995e-06,
+    "cost_missing": 0,
+    "cache_indicator_true": 0
+  },
+  "generate": {
+    "calls": 200,
+    "prompt_tokens": 188720,
+    "completion_tokens": 8234,
+    "reasoning_tokens": 3797,
+    "cost_usd": 0.024047650000000004,
+    "cost_missing": 0,
+    "cache_indicator_true": 0
+  },
+  "judge": {
+    "calls": 357,
+    "prompt_tokens": 82365,
+    "completion_tokens": 21468,
+    "reasoning_tokens": 10440,
+    "cost_usd": 0.019127849999999988,
+    "cost_missing": 0,
+    "cache_indicator_true": 37
+  },
+  "rewrite": {
+    "calls": 250,
+    "prompt_tokens": 23631,
+    "completion_tokens": 27455,
+    "reasoning_tokens": 19771,
+    "cost_usd": 0.0160906,
+    "cost_missing": 0,
+    "cache_indicator_true": 0
+  }
+}

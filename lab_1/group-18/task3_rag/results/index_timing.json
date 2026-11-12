@@ -1,0 +1,54 @@
+{
+  "r3_120": {
+    "size": 120,
+    "overlap": 32,
+    "chunks": 1902,
+    "indexing_s": 49.80528240010608,
+    "embedding": {
+      "n_texts": 1902,
+      "new": 1902,
+      "local_cache_hits": 0,
+      "elapsed_s": 49.33081850002054,
+      "amortized_s_per_text": 0.025936287329138035
+    }
+  },
+  "r3_220": {
+    "size": 220,
+    "overlap": 32,
+    "chunks": 973,
+    "indexing_s": 21.760404200060293,
+    "embedding": {
+      "n_texts": 973,
+      "new": 711,
+      "local_cache_hits": 262,
+      "elapsed_s": 21.533063699956983,
+      "amortized_s_per_text": 0.022130589619688574
+    }
+  },
+  "r3_360": {
+    "size": 360,
+    "overlap": 32,
+    "chunks": 952,
+    "indexing_s": 1.0504757999442518,
+    "embedding": {
+      "n_texts": 952,
+      "new": 27,
+      "local_cache_hits": 925,
+      "elapsed_s": 0.836883099982515,
+      "amortized_s_per_text": 0.0008790788865362553
+    }
+  },
+  "r2": {
+    "size": 220,
+    "overlap": 32,
+    "chunks": 970,
+    "indexing_s": 27.635876700049266,
+    "embedding": {
+      "n_texts": 970,
+      "new": 970,
+      "local_cache_hits": 0,
+      "elapsed_s": 27.512337299995124,
+      "amortized_s_per_text": 0.028363234329891882
+    }
+  }
+}

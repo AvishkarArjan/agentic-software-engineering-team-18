@@ -1,0 +1,46 @@
+{
+  "selected_recursive": "r3_220",
+  "alpha_bm25": 0.5,
+  "tuning_scores": {
+    "r3_120": {
+      "n": 40,
+      "context_recall": 0.55,
+      "context_precision": 0.49333333333333335
+    },
+    "r3_220": {
+      "n": 40,
+      "context_recall": 0.5875,
+      "context_precision": 0.5383333333333333
+    },
+    "r3_360": {
+      "n": 40,
+      "context_recall": 0.5875,
+      "context_precision": 0.5383333333333333
+    },
+    "r2": {
+      "n": 40,
+      "context_recall": 0.5875,
+      "context_precision": 0.525
+    }
+  },
+  "weight_scores": {
+    "0.25": {
+      "n": 40,
+      "context_recall": 0.7375,
+      "context_precision": 0.7270833333333333
+    },
+    "0.5": {
+      "n": 40,
+      "context_recall": 0.7375,
+      "context_precision": 0.7581249999999999
+    },
+    "0.75": {
+      "n": 40,
+      "context_recall": 0.6625,
+      "context_precision": 0.6995833333333333
+    }
+  },
+  "criterion": "tuning recall@5, precision@5 breaks ties",
+  "embedding_model": "kiconnect.qwen3-embedding-8b",
+  "chat_model": "openai.gpt-6-luna"
+}

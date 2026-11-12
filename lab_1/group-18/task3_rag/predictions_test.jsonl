@@ -1,0 +1,100 @@
+{"id": "test001", "answer": "`--include-internal` also shows internal system objects—those whose names start with `__`.", "retrieved_doc_ids": ["d0188", "d0660", "d0665", "d0072", "d0708"]}
+{"id": "test002", "answer": "PQ-E2187 means the partitioner’s in-memory buffer is full, so new data is rejected. Reduce the incoming rate or increase `partitioner.buffer_bytes`, and check whether downstream processing is stuck. Common causes include a misconfigured client or a consumer that has stopped reading.", "retrieved_doc_ids": ["d0296", "d0561", "d0850", "d0687", "d0865"]}
+{"id": "test003", "answer": "`--since` limits the purge to objects created after a specified timestamp in ISO 8601 format.", "retrieved_doc_ids": ["d0708", "d0004", "d0718", "d0084", "d0188"]}
+{"id": "test004", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0826", "d0507", "d0094", "d0315", "d0474"]}
+{"id": "test005", "answer": "The default changed in PaderQueue 4.0. Before that, it was `1000` tasks.", "retrieved_doc_ids": ["d0315", "d0175", "d0648", "d0882", "d0582"]}
+{"id": "test006", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0791", "d0804", "d0135", "d0266", "d0914"]}
+{"id": "test007", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0366", "d0808", "d0659", "d0349", "d0627"]}
+{"id": "test008", "answer": "The default value of `auth.max_retries` in PaderQueue 3.x was `20`.", "retrieved_doc_ids": ["d0097", "d0025", "d0198", "d0685", "d0398"]}
+{"id": "test009", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0477", "d0610", "d0207", "d0272", "d0808"]}
+{"id": "test010", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0404", "d0313", "d0496", "d0125", "d0302"]}
+{"id": "test011", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0117", "d0359", "d0422", "d0659", "d0823"]}
+{"id": "test012", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0588", "d0499", "d0168", "d0507", "d0855"]}
+{"id": "test013", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0122", "d0050", "d0208", "d0448", "d0439"]}
+{"id": "test014", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0723", "d0313", "d0496", "d0125", "d0790"]}
+{"id": "test015", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0043", "d0804", "d0914", "d0135", "d0266"]}
+{"id": "test016", "answer": "PQ-E2547 COMPACTOR_COMPONENT_DISABLED.", "retrieved_doc_ids": ["d0477", "d0755", "d0109", "d0499", "d0610"]}
+{"id": "test017", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0808", "d0700", "d0100", "d0041", "d0292"]}
+{"id": "test018", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0261", "d0496", "d0313", "d0535", "d0790"]}
+{"id": "test019", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0316", "d0371", "d0360", "d0245", "d0549"]}
+{"id": "test020", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0658", "d0302", "d0614", "d0839", "d0563"]}
+{"id": "test021", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0531", "d0300", "d0530", "d0537", "d0175"]}
+{"id": "test022", "answer": "The default was `256` connections.", "retrieved_doc_ids": ["d0931", "d0671", "d0343", "d0680", "d0651"]}
+{"id": "test023", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0477", "d0610", "d0272", "d0499", "d0109"]}
+{"id": "test024", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0449", "d0549", "d0552", "d0755", "d0659"]}
+{"id": "test025", "answer": "PQ-E2451 means the snapshotter’s in-memory buffer is full, so new data is rejected. Reduce the incoming rate or increase `snapshotter.buffer_bytes`, and check whether downstream processing is stuck. Common causes include a sudden traffic spike or too many tenants on one node.", "retrieved_doc_ids": ["d0658", "d0563", "d0614", "d0005", "d0839"]}
+{"id": "test026", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0407", "d0156", "d0498", "d0580", "d0583"]}
+{"id": "test027", "answer": "The error is `PQ-E3682 REPLICATOR_WORK_QUEUE_FULL`.", "retrieved_doc_ids": ["d0650", "d0002", "d0207", "d0667", "d0182"]}
+{"id": "test028", "answer": "`partitioner.buffer_bytes` determines the in-memory buffer size, in bytes, for the partitioner that decides which partition receives a message.", "retrieved_doc_ids": ["d0826", "d0899", "d0551", "d0796", "d0696"]}
+{"id": "test029", "answer": "The default changed in release 4.0. Before that, it was `12`.", "retrieved_doc_ids": ["d0655", "d0398", "d0793", "d0810", "d0382"]}
+{"id": "test030", "answer": "The default changed in release 4.0. Before that, it was `2000` ms.", "retrieved_doc_ids": ["d0530", "d0911", "d0663", "d0526", "d0081"]}
+{"id": "test031", "answer": "The default changed in release **3.0**. Before that, it was **300 seconds**.", "retrieved_doc_ids": ["d0677", "d0132", "d0255", "d0406", "d0171"]}
+{"id": "test032", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0659", "d0283", "d0823", "d0272", "d0548"]}
+{"id": "test033", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0440", "d0511", "d0113", "d0129", "d0263"]}
+{"id": "test034", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0610", "d0272", "d0755", "d0477", "d0109"]}
+{"id": "test035", "answer": "Set `coordinator.compression` to the same value on all nodes, then restart the nodes one at a time.", "retrieved_doc_ids": ["d0328", "d0459", "d0270", "d0164", "d0815"]}
+{"id": "test036", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0631", "d0385", "d0513", "d0859", "d0258"]}
+{"id": "test037", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0900", "d0859", "d0878", "d0136", "d0624"]}
+{"id": "test038", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0477", "d0818", "d0610", "d0920", "d0808"]}
+{"id": "test039", "answer": "The setting is `scheduler.buffer_bytes`. It controls the scheduler’s in-memory buffer for delayed messages, in bytes.", "retrieved_doc_ids": ["d0826", "d0507", "d0899", "d0925", "d0642"]}
+{"id": "test040", "answer": "PQ-E4711 ACKTRACKER_OPERATION_TIMEOUT", "retrieved_doc_ids": ["d0447", "d0735", "d0512", "d0667", "d0406"]}
+{"id": "test041", "answer": "PaderQueue reports **PQ-E1405 (BROKER_THROTTLED)**.", "retrieved_doc_ids": ["d0604", "d0667", "d0700", "d0406", "d0507"]}
+{"id": "test042", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0195", "d0564", "d0448", "d0181", "d0009"]}
+{"id": "test043", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0244", "d0394", "d0630", "d0356", "d0605"]}
+{"id": "test044", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0407", "d0498", "d0881", "d0402", "d0218"]}
+{"id": "test045", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0507", "d0700", "d0406", "d0667", "d0531"]}
+{"id": "test046", "answer": "In PaderQueue 3.x, the default value of `partitioner.compression` was `lz4`.", "retrieved_doc_ids": ["d0206", "d0707", "d0175", "d0596", "d0351"]}
+{"id": "test047", "answer": "The default changed in PaderQueue 4.0. Before that, it was `8` threads.", "retrieved_doc_ids": ["d0240", "d0929", "d0601", "d0520", "d0334"]}
+{"id": "test048", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0750", "d0292", "d0855", "d0833", "d0549"]}
+{"id": "test049", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0610", "d0272", "d0755", "d0477", "d0645"]}
+{"id": "test050", "answer": "`ingress.log_level` controls the verbosity of logs from the HTTP ingress gateway that accepts messages over REST. It accepts `debug`, `info`, `warn`, or `error`; the 4.x default is `error`.", "retrieved_doc_ids": ["d0074", "d0667", "d0406", "d0779", "d0800"]}
+{"id": "test051", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0859", "d0878", "d0596", "d0285", "d0385"]}
+{"id": "test052", "answer": "PQ-E3642 means the acktracker’s internal work queue is full, so new tasks are rejected. Check for network problems between nodes or too many tenants on one node. Add worker threads or increase `acktracker.queue_capacity`; if the queue stays full, the component is likely too slow.", "retrieved_doc_ids": ["d0366", "d0808", "d0627", "d0905", "d0349"]}
+{"id": "test053", "answer": "The default value of `retention.batch_size` in PaderQueue 3.x was `32` messages.", "retrieved_doc_ids": ["d0538", "d0781", "d0487", "d0912", "d0847"]}
+{"id": "test054", "answer": "The default value of `partitioner.queue_capacity` in the current version (PaderQueue 4.x) is `100`.", "retrieved_doc_ids": ["d0175", "d0315", "d0648", "d0882", "d0582"]}
+{"id": "test055", "answer": "PQ-E4020 SPOOL_CODEC_MISMATCH.", "retrieved_doc_ids": ["d0738", "d0065", "d0842", "d0351", "d0506"]}
+{"id": "test056", "answer": "In PaderQueue 2.x, the default value of `retention.threshold_percent` was `90%`.", "retrieved_doc_ids": ["d0347", "d0365", "d0373", "d0670", "d0016"]}
+{"id": "test057", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0610", "d0109", "d0272", "d0477", "d0683"]}
+{"id": "test058", "answer": "`--force` skips the confirmation prompt.", "retrieved_doc_ids": ["d0885", "d0433", "d0014", "d0161", "d0383"]}
+{"id": "test059", "answer": "`coordinator.queue_capacity` in PaderQueue 3.x caps pending tasks in the consumer group coordinator’s queue. Its default is `5000` tasks.", "retrieved_doc_ids": ["d0315", "d0121", "d0524", "d0474", "d0870"]}
+{"id": "test060", "answer": "`dlq.batch_size` defaults to `256` in PaderQueue 4.x.", "retrieved_doc_ids": ["d0673", "d0764", "d0035", "d0666", "d0784"]}
+{"id": "test061", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0535", "d0496", "d0313", "d0790", "d0222"]}
+{"id": "test062", "answer": "PaderQueue reports **PQ-E1547 (PARTITIONER_COMPONENT_DISABLED)**.", "retrieved_doc_ids": ["d0499", "d0094", "d0507", "d0755", "d0066"]}
+{"id": "test063", "answer": "`retention.threshold_percent` controls when the retention manager that deletes expired messages starts throttling. It is measured as a usage percentage; the default is `90` in PaderQueue 2.x and `95` in PaderQueue 4.x.", "retrieved_doc_ids": ["d0347", "d0807", "d0365", "d0507", "d0661"]}
+{"id": "test064", "answer": "The `--include-internal` flag also shows internal system objects—those whose names start with `__`.", "retrieved_doc_ids": ["d0708", "d0106", "d0188", "d0915", "d0001"]}
+{"id": "test065", "answer": "The default changed in release **3.0**. Before that, it was **90%**.", "retrieved_doc_ids": ["d0365", "d0347", "d0670", "d0373", "d0668"]}
+{"id": "test066", "answer": "`--max-parallel` sets the maximum number of nodes processed at the same time. Its default is `2`.", "retrieved_doc_ids": ["d0106", "d0330", "d0717", "d0348", "d0221"]}
+{"id": "test067", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0872", "d0608", "d0315", "d0439", "d0121"]}
+{"id": "test068", "answer": "The default value of `retention.log_level` in PaderQueue 3.x was `warn`.", "retrieved_doc_ids": ["d0469", "d0369", "d0341", "d0318", "d0907"]}
+{"id": "test069", "answer": "`--retain-days` specifies the number of days the restored result is kept before it is deleted automatically.", "retrieved_doc_ids": ["d0591", "d0885", "d0861", "d0901", "d0352"]}
+{"id": "test070", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0533", "d0496", "d0313", "d0790", "d0535"]}
+{"id": "test071", "answer": "The default changed in PaderQueue 4.0; before that, it was `5000`.", "retrieved_doc_ids": ["d0828", "d0121", "d0436", "d0083", "d0039"]}
+{"id": "test072", "answer": "The default changed in release 3.0. Before that, it was `zstd`.", "retrieved_doc_ids": ["d0679", "d0570", "d0874", "d0593", "d0822"]}
+{"id": "test073", "answer": "The setting is `partitioner.max_retries`. It controls how many times the partitioner retries deciding which partition to write a message to before the operation is reported as failed.", "retrieved_doc_ids": ["d0596", "d0749", "d0285", "d0655", "d0624"]}
+{"id": "test074", "answer": "`partitioner.compression` selects the compression codec. In PaderQueue 4.x, the available codecs are `none`, `lz4`, and `zstd` (default: `none`).", "retrieved_doc_ids": ["d0707", "d0094", "d0206", "d0826", "d0474"]}
+{"id": "test075", "answer": "PQ-E4590 means the snapshotter is throttling requests because usage is above the configured threshold. Add capacity or reduce load. As a last resort, raise `snapshotter.threshold_percent`.", "retrieved_doc_ids": ["d0762", "d0883", "d0158", "d0811", "d0215"]}
+{"id": "test076", "answer": "In PaderQueue 4.x, `compactor.compression` defaults to `lz4`.", "retrieved_doc_ids": ["d0564", "d0903", "d0609", "d0738", "d0138"]}
+{"id": "test077", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0307", "d0260", "d0911", "d0045", "d0743"]}
+{"id": "test078", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0507", "d0094", "d0524", "d0315", "d0667"]}
+{"id": "test079", "answer": "The default value of `spool.log_level` in the current version of PaderQueue (4.x) is `warn`.", "retrieved_doc_ids": ["d0835", "d0575", "d0789", "d0321", "d0800"]}
+{"id": "test080", "answer": "The default value of `snapshotter.batch_size` in PaderQueue 3.x was `100`.", "retrieved_doc_ids": ["d0487", "d0291", "d0566", "d0516", "d0912"]}
+{"id": "test081", "answer": "The default changed in **4.0**. Before that, it was `warn`.", "retrieved_doc_ids": ["d0369", "d0469", "d0318", "d0341", "d0907"]}
+{"id": "test082", "answer": "The default changed in PaderQueue 4.0. Before that, it was `256` messages.", "retrieved_doc_ids": ["d0050", "d0603", "d0776", "d0690", "d0604"]}
+{"id": "test083", "answer": "`dlq.max_connections` limits the simultaneous client connections accepted by the dead-letter handler.", "retrieved_doc_ids": ["d0631", "d0871", "d0204", "d0166", "d0571"]}
+{"id": "test084", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0264", "d0920", "d0740", "d0773", "d0549"]}
+{"id": "test085", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0564", "d0903", "d0448", "d0181", "d0570"]}
+{"id": "test086", "answer": "Set `acktracker.enabled` to `true` and restart the node.", "retrieved_doc_ids": ["d0316", "d0371", "d0360", "d0726", "d0720"]}
+{"id": "test087", "answer": "`--max-parallel` sets the maximum number of nodes processed at the same time. Its default is `2`.", "retrieved_doc_ids": ["d0508", "d0348", "d0134", "d0059", "d0717"]}
+{"id": "test088", "answer": "The default value of `spool.max_connections` in the current version of PaderQueue (4.x) is `1024`.", "retrieved_doc_ids": ["d0088", "d0585", "d0107", "d0470", "d0153"]}
+{"id": "test089", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0580", "d0407", "d0334", "d0381", "d0156"]}
+{"id": "test090", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0853", "d0495", "d0642", "d0549", "d0449"]}
+{"id": "test091", "answer": "The default value of `coordinator.batch_size` in PaderQueue 3.x was `500` messages.", "retrieved_doc_ids": ["d0103", "d0211", "d0809", "d0912", "d0763"]}
+{"id": "test092", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0477", "d0272", "d0806", "d0610", "d0755"]}
+{"id": "test093", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0765", "d0462", "d0512", "d0676", "d0420"]}
+{"id": "test094", "answer": "The default value of `auth.log_level` in the current version is `info`.", "retrieved_doc_ids": ["d0800", "d0575", "d0789", "d0234", "d0369"]}
+{"id": "test095", "answer": "The default changed in release 4.0. Before that, it was `info`.", "retrieved_doc_ids": ["d0085", "d0907", "d0375", "d0813", "d0461"]}
+{"id": "test096", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0023", "d0804", "d0914", "d0135", "d0266"]}
+{"id": "test097", "answer": "The default changed in release 3.0. Before that, it was `1` thread.", "retrieved_doc_ids": ["d0381", "d0402", "d0509", "d0334", "d0406"]}
+{"id": "test098", "answer": "`ingress.buffer_bytes` determines the HTTP ingress gateway’s in-memory buffering capacity, measured in bytes.", "retrieved_doc_ids": ["d0387", "d0910", "d0132", "d0256", "d0677"]}
+{"id": "test099", "answer": "The documentation does not contain this information.", "retrieved_doc_ids": ["d0477", "d0272", "d0610", "d0109", "d0645"]}
+{"id": "test100", "answer": "`quota.interval_s` controls the pause. It is the interval in seconds between background runs of the quota manager, which limits throughput per tenant.", "retrieved_doc_ids": ["d0816", "d0406", "d0743", "d0300", "d0642"]}

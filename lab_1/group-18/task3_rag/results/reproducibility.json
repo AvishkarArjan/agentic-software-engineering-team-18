@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-11-10T14:54:59.150221+00:00",
+  "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "configuration": {
+    "configuration": "r5",
+    "mean_correctness": {
+      "r5": 0.78,
+      "r4": 0.76
+    },
+    "selection": "dev judge correctness, heldout retrieval rank breaks ties; test ground truth never used"
+  },
+  "source_sha256": {
+    "common/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "common/llm_client.py": "0c438910fe7e7e29c2d9f7c96c5b0a98538a1183de82bdf77e41ba8363ed46f3",
+    "task3_rag/benchmark_lexical_index.py": "0e98c180420cbf008b4b5e1bac6b6d8f1b022c4879484c242f8d232e947e46a3",
+    "task3_rag/data/corpus.jsonl": "6fd0ea0c6b6665d84cc3ea21fb7e58ddd756ca8fbe220b59772cafd5ff550361",
+    "task3_rag/data/questions_dev.jsonl": "82d00b53f11a2f419fdffca57846a3d4506c11b9da176db0b314a2b7124dfbf3",
+    "task3_rag/data/questions_test.jsonl": "dd0d72546ba34a3f34be049737cd038b10ddfb800081da4f7c7f3d1298bc5aab",
+    "task3_rag/evaluate.py": "6db682e463083d3d911d4ff9f1b961b90995d60ebd29264f8672fa493331517f",
+    "task3_rag/evidence_review.py": "a63b937f7c5f38dc6578d18c24f92e95d4c0bfd91aec691f028f856084947b2b",
+    "task3_rag/judge.py": "6e213891a5e0b4be6f54eeee865e02b140556c7866423bf9adbfd2b54c3412b0",
+    "task3_rag/package_solution.py": "bd9004a8c814dff65f5b6db73095f6a2eb07107211f60fb4635029aaef1f3bf8",
+    "task3_rag/retrieval.py": "df0c01eeb2c2c1882e9104cbce95467060fb4243181226325449fb529332851d",
+    "task3_rag/run_experiments.py": "02e605cd74c6008bda8f61d3f803e5ff14e86a9626d1b7d635e8044f40d802ad",
+    "task3_rag/summarize.py": "55e2cbe38790e9f3d44801660bb6eccca159b4628d5d6b88063eab637cc592f5",
+    "task3_rag/test_retrieval.py": "80db3088bfd2bb0d9fe533a93b443a2d7a76c345f1afb1ee600dcd85d83bf2c9",
+    "task3_rag/verify_results.py": "a83bbabc005a8a3f91be55b182cbd66bb9d70254a779263aa5ca080459d311b2"
+  },
+  "excluded": [
+    ".env",
+    ".cache/",
+    "__pycache__/",
+    ".venv/",
+    "other lab tasks"
+  ]
+}

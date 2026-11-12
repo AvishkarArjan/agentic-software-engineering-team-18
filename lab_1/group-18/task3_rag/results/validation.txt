@@ -1,0 +1,1 @@
+Verified: all metric files reproduce; two complete 50-question judge runs; exact contexts; 100 valid test predictions.

@@ -1,0 +1,437 @@
+Embedded 32/250 new texts
+Embedded 64/250 new texts
+Embedded 96/250 new texts
+Embedded 128/250 new texts
+Embedded 160/250 new texts
+Embedded 192/250 new texts
+Embedded 224/250 new texts
+Embedded 250/250 new texts
+Embedded 32/1902 new texts
+Embedded 64/1902 new texts
+Embedded 96/1902 new texts
+Embedded 128/1902 new texts
+Embedded 160/1902 new texts
+Embedded 192/1902 new texts
+Embedded 224/1902 new texts
+Embedded 256/1902 new texts
+Embedded 288/1902 new texts
+Embedded 320/1902 new texts
+Embedded 352/1902 new texts
+Embedded 384/1902 new texts
+Embedded 416/1902 new texts
+Embedded 448/1902 new texts
+Embedded 480/1902 new texts
+Embedded 512/1902 new texts
+Embedded 544/1902 new texts
+Embedded 576/1902 new texts
+Embedded 608/1902 new texts
+Embedded 640/1902 new texts
+Embedded 672/1902 new texts
+Embedded 704/1902 new texts
+Embedded 736/1902 new texts
+Embedded 768/1902 new texts
+Embedded 800/1902 new texts
+Embedded 832/1902 new texts
+Embedded 864/1902 new texts
+Embedded 896/1902 new texts
+Embedded 928/1902 new texts
+Embedded 960/1902 new texts
+Embedded 992/1902 new texts
+Embedded 1024/1902 new texts
+Embedded 1056/1902 new texts
+Embedded 1088/1902 new texts
+Embedded 1120/1902 new texts
+Embedded 1152/1902 new texts
+Embedded 1184/1902 new texts
+Embedded 1216/1902 new texts
+Embedded 1248/1902 new texts
+Embedded 1280/1902 new texts
+Embedded 1312/1902 new texts
+Embedded 1344/1902 new texts
+Embedded 1376/1902 new texts
+Embedded 1408/1902 new texts
+Embedded 1440/1902 new texts
+Embedded 1472/1902 new texts
+Embedded 1504/1902 new texts
+Embedded 1536/1902 new texts
+Embedded 1568/1902 new texts
+Embedded 1600/1902 new texts
+Embedded 1632/1902 new texts
+Embedded 1664/1902 new texts
+Embedded 1696/1902 new texts
+Embedded 1728/1902 new texts
+Embedded 1760/1902 new texts
+Embedded 1792/1902 new texts
+Embedded 1824/1902 new texts
+Embedded 1856/1902 new texts
+Embedded 1888/1902 new texts
+Embedded 1902/1902 new texts
+Embedded 32/711 new texts
+Embedded 64/711 new texts
+Embedded 96/711 new texts
+Embedded 128/711 new texts
+Embedded 160/711 new texts
+Embedded 192/711 new texts
+Embedded 224/711 new texts
+Embedded 256/711 new texts
+Embedded 288/711 new texts
+Embedded 320/711 new texts
+Embedded 352/711 new texts
+Embedded 384/711 new texts
+Embedded 416/711 new texts
+Embedded 448/711 new texts
+Embedded 480/711 new texts
+Embedded 512/711 new texts
+Embedded 544/711 new texts
+Embedded 576/711 new texts
+Embedded 608/711 new texts
+Embedded 640/711 new texts
+Embedded 672/711 new texts
+Embedded 704/711 new texts
+Embedded 711/711 new texts
+Embedded 27/27 new texts
+Embedded 32/970 new texts
+Embedded 64/970 new texts
+Embedded 96/970 new texts
+Embedded 128/970 new texts
+Embedded 160/970 new texts
+Embedded 192/970 new texts
+Embedded 224/970 new texts
+Embedded 256/970 new texts
+Embedded 288/970 new texts
+Embedded 320/970 new texts
+Embedded 352/970 new texts
+Embedded 384/970 new texts
+Embedded 416/970 new texts
+Embedded 448/970 new texts
+Embedded 480/970 new texts
+Embedded 512/970 new texts
+Embedded 544/970 new texts
+Embedded 576/970 new texts
+Embedded 608/970 new texts
+Embedded 640/970 new texts
+Embedded 672/970 new texts
+Embedded 704/970 new texts
+Embedded 736/970 new texts
+Embedded 768/970 new texts
+Embedded 800/970 new texts
+Embedded 832/970 new texts
+Embedded 864/970 new texts
+Embedded 896/970 new texts
+Embedded 928/970 new texts
+Embedded 960/970 new texts
+Embedded 970/970 new texts
+rewrites.jsonl: 1/250 dev001
+rewrites.jsonl: 2/250 dev002
+rewrites.jsonl: 3/250 dev004
+rewrites.jsonl: 4/250 dev003
+rewrites.jsonl: 5/250 dev005
+rewrites.jsonl: 6/250 dev006
+rewrites.jsonl: 7/250 dev007
+rewrites.jsonl: 8/250 dev008
+rewrites.jsonl: 9/250 dev009
+rewrites.jsonl: 10/250 dev010
+rewrites.jsonl: 11/250 dev011
+rewrites.jsonl: 12/250 dev012
+rewrites.jsonl: 13/250 dev013
+rewrites.jsonl: 14/250 dev015
+rewrites.jsonl: 15/250 dev014
+rewrites.jsonl: 16/250 dev016
+rewrites.jsonl: 17/250 dev018
+rewrites.jsonl: 18/250 dev017
+rewrites.jsonl: 19/250 dev019
+rewrites.jsonl: 20/250 dev020
+rewrites.jsonl: 21/250 dev021
+rewrites.jsonl: 22/250 dev022
+rewrites.jsonl: 23/250 dev023
+rewrites.jsonl: 24/250 dev024
+rewrites.jsonl: 25/250 dev025
+rewrites.jsonl: 26/250 dev026
+rewrites.jsonl: 27/250 dev028
+rewrites.jsonl: 28/250 dev027
+rewrites.jsonl: 29/250 dev029
+rewrites.jsonl: 30/250 dev030
+rewrites.jsonl: 31/250 dev031
+rewrites.jsonl: 32/250 dev033
+rewrites.jsonl: 33/250 dev032
+rewrites.jsonl: 34/250 dev034
+rewrites.jsonl: 35/250 dev035
+rewrites.jsonl: 36/250 dev036
+rewrites.jsonl: 37/250 dev037
+rewrites.jsonl: 38/250 dev038
+rewrites.jsonl: 39/250 dev039
+rewrites.jsonl: 40/250 dev040
+rewrites.jsonl: 41/250 dev041
+rewrites.jsonl: 42/250 dev043
+rewrites.jsonl: 43/250 dev042
+rewrites.jsonl: 44/250 dev044
+rewrites.jsonl: 45/250 dev045
+rewrites.jsonl: 46/250 dev047
+rewrites.jsonl: 47/250 dev048
+rewrites.jsonl: 48/250 dev046
+rewrites.jsonl: 49/250 dev050
+rewrites.jsonl: 50/250 dev049
+rewrites.jsonl: 51/250 dev051
+rewrites.jsonl: 52/250 dev053
+rewrites.jsonl: 53/250 dev054
+rewrites.jsonl: 54/250 dev055
+rewrites.jsonl: 55/250 dev052
+rewrites.jsonl: 56/250 dev058
+rewrites.jsonl: 57/250 dev056
+rewrites.jsonl: 58/250 dev059
+rewrites.jsonl: 59/250 dev057
+rewrites.jsonl: 60/250 dev060
+rewrites.jsonl: 61/250 dev061
+rewrites.jsonl: 62/250 dev062
+rewrites.jsonl: 63/250 dev065
+rewrites.jsonl: 64/250 dev064
+rewrites.jsonl: 65/250 dev063
+rewrites.jsonl: 66/250 dev066
+rewrites.jsonl: 67/250 dev068
+rewrites.jsonl: 68/250 dev067
+rewrites.jsonl: 69/250 dev069
+rewrites.jsonl: 70/250 dev070
+rewrites.jsonl: 71/250 dev071
+rewrites.jsonl: 72/250 dev072
+rewrites.jsonl: 73/250 dev073
+rewrites.jsonl: 74/250 dev074
+rewrites.jsonl: 75/250 dev075
+rewrites.jsonl: 76/250 dev077
+rewrites.jsonl: 77/250 dev078
+rewrites.jsonl: 78/250 dev076
+rewrites.jsonl: 79/250 dev079
+rewrites.jsonl: 80/250 dev080
+rewrites.jsonl: 81/250 dev081
+rewrites.jsonl: 82/250 dev082
+rewrites.jsonl: 83/250 dev083
+rewrites.jsonl: 84/250 dev084
+rewrites.jsonl: 85/250 dev085
+rewrites.jsonl: 86/250 dev086
+rewrites.jsonl: 87/250 dev087
+rewrites.jsonl: 88/250 dev088
+rewrites.jsonl: 89/250 dev090
+rewrites.jsonl: 90/250 dev091
+rewrites.jsonl: 91/250 dev089
+rewrites.jsonl: 92/250 dev092
+rewrites.jsonl: 93/250 dev093
+rewrites.jsonl: 94/250 dev095
+rewrites.jsonl: 95/250 dev094
+rewrites.jsonl: 96/250 dev096
+rewrites.jsonl: 97/250 dev097
+rewrites.jsonl: 98/250 dev098
+rewrites.jsonl: 99/250 dev099
+rewrites.jsonl: 100/250 dev101
+rewrites.jsonl: 101/250 dev100
+rewrites.jsonl: 102/250 dev103
+rewrites.jsonl: 103/250 dev102
+rewrites.jsonl: 104/250 dev104
+rewrites.jsonl: 105/250 dev105
+rewrites.jsonl: 106/250 dev106
+rewrites.jsonl: 107/250 dev107
+rewrites.jsonl: 108/250 dev108
+rewrites.jsonl: 109/250 dev110
+rewrites.jsonl: 110/250 dev109
+rewrites.jsonl: 111/250 dev111
+rewrites.jsonl: 112/250 dev113
+rewrites.jsonl: 113/250 dev114
+rewrites.jsonl: 114/250 dev112
+rewrites.jsonl: 115/250 dev115
+rewrites.jsonl: 116/250 dev118
+rewrites.jsonl: 117/250 dev116
+rewrites.jsonl: 118/250 dev117
+rewrites.jsonl: 119/250 dev119
+rewrites.jsonl: 120/250 dev122
+rewrites.jsonl: 121/250 dev120
+rewrites.jsonl: 122/250 dev123
+rewrites.jsonl: 123/250 dev121
+rewrites.jsonl: 124/250 dev124
+rewrites.jsonl: 125/250 dev127
+rewrites.jsonl: 126/250 dev126
+rewrites.jsonl: 127/250 dev125
+rewrites.jsonl: 128/250 dev128
+rewrites.jsonl: 129/250 dev131
+rewrites.jsonl: 130/250 dev132
+rewrites.jsonl: 131/250 dev130
+rewrites.jsonl: 132/250 dev133
+rewrites.jsonl: 133/250 dev129
+rewrites.jsonl: 134/250 dev135
+rewrites.jsonl: 135/250 dev137
+rewrites.jsonl: 136/250 dev134
+rewrites.jsonl: 137/250 dev136
+rewrites.jsonl: 138/250 dev138
+rewrites.jsonl: 139/250 dev140
+rewrites.jsonl: 140/250 dev141
+rewrites.jsonl: 141/250 dev139
+rewrites.jsonl: 142/250 dev143
+rewrites.jsonl: 143/250 dev144
+rewrites.jsonl: 144/250 dev142
+rewrites.jsonl: 145/250 dev145
+rewrites.jsonl: 146/250 dev147
+rewrites.jsonl: 147/250 dev146
+rewrites.jsonl: 148/250 dev148
+rewrites.jsonl: 149/250 dev149
+rewrites.jsonl: 150/250 dev150
+rewrites.jsonl: 151/250 test002
+rewrites.jsonl: 152/250 test001
+rewrites.jsonl: 153/250 test003
+rewrites.jsonl: 154/250 test005
+rewrites.jsonl: 155/250 test004
+rewrites.jsonl: 156/250 test006
+rewrites.jsonl: 157/250 test007
+rewrites.jsonl: 158/250 test008
+rewrites.jsonl: 159/250 test009
+rewrites.jsonl: 160/250 test010
+rewrites.jsonl: 161/250 test011
+rewrites.jsonl: 162/250 test012
+rewrites.jsonl: 163/250 test013
+rewrites.jsonl: 164/250 test015
+rewrites.jsonl: 165/250 test014
+rewrites.jsonl: 166/250 test016
+rewrites.jsonl: 167/250 test017
+rewrites.jsonl: 168/250 test018
+rewrites.jsonl: 169/250 test019
+rewrites.jsonl: 170/250 test020
+rewrites.jsonl: 171/250 test021
+rewrites.jsonl: 172/250 test022
+rewrites.jsonl: 173/250 test023
+rewrites.jsonl: 174/250 test025
+rewrites.jsonl: 175/250 test024
+rewrites.jsonl: 176/250 test026
+rewrites.jsonl: 177/250 test027
+rewrites.jsonl: 178/250 test028
+rewrites.jsonl: 179/250 test029
+rewrites.jsonl: 180/250 test030
+rewrites.jsonl: 181/250 test031
+rewrites.jsonl: 182/250 test032
+rewrites.jsonl: 183/250 test033
+rewrites.jsonl: 184/250 test034
+rewrites.jsonl: 185/250 test035
+rewrites.jsonl: 186/250 test036
+rewrites.jsonl: 187/250 test037
+rewrites.jsonl: 188/250 test038
+rewrites.jsonl: 189/250 test039
+rewrites.jsonl: 190/250 test041
+rewrites.jsonl: 191/250 test040
+rewrites.jsonl: 192/250 test042
+rewrites.jsonl: 193/250 test043
+rewrites.jsonl: 194/250 test044
+rewrites.jsonl: 195/250 test046
+rewrites.jsonl: 196/250 test045
+rewrites.jsonl: 197/250 test047
+rewrites.jsonl: 198/250 test048
+rewrites.jsonl: 199/250 test049
+rewrites.jsonl: 200/250 test051
+rewrites.jsonl: 201/250 test050
+rewrites.jsonl: 202/250 test052
+rewrites.jsonl: 203/250 test053
+rewrites.jsonl: 204/250 test054
+rewrites.jsonl: 205/250 test055
+rewrites.jsonl: 206/250 test056
+rewrites.jsonl: 207/250 test057
+rewrites.jsonl: 208/250 test058
+rewrites.jsonl: 209/250 test059
+rewrites.jsonl: 210/250 test061
+rewrites.jsonl: 211/250 test060
+rewrites.jsonl: 212/250 test062
+rewrites.jsonl: 213/250 test064
+rewrites.jsonl: 214/250 test065
+rewrites.jsonl: 215/250 test063
+rewrites.jsonl: 216/250 test067
+rewrites.jsonl: 217/250 test066
+rewrites.jsonl: 218/250 test068
+rewrites.jsonl: 219/250 test069
+rewrites.jsonl: 220/250 test070
+rewrites.jsonl: 221/250 test071
+rewrites.jsonl: 222/250 test073
+rewrites.jsonl: 223/250 test072
+rewrites.jsonl: 224/250 test075
+rewrites.jsonl: 225/250 test074
+rewrites.jsonl: 226/250 test077
+rewrites.jsonl: 227/250 test076
+rewrites.jsonl: 228/250 test078
+rewrites.jsonl: 229/250 test080
+rewrites.jsonl: 230/250 test079
+rewrites.jsonl: 231/250 test081
+rewrites.jsonl: 232/250 test082
+rewrites.jsonl: 233/250 test083
+rewrites.jsonl: 234/250 test084
+rewrites.jsonl: 235/250 test085
+rewrites.jsonl: 236/250 test086
+rewrites.jsonl: 237/250 test087
+rewrites.jsonl: 238/250 test088
+rewrites.jsonl: 239/250 test089
+rewrites.jsonl: 240/250 test090
+rewrites.jsonl: 241/250 test091
+rewrites.jsonl: 242/250 test092
+rewrites.jsonl: 243/250 test093
+rewrites.jsonl: 244/250 test094
+rewrites.jsonl: 245/250 test095
+rewrites.jsonl: 246/250 test096
+rewrites.jsonl: 247/250 test097
+rewrites.jsonl: 248/250 test098
+rewrites.jsonl: 249/250 test099
+rewrites.jsonl: 250/250 test100
+Embedded 32/247 new texts
+Embedded 64/247 new texts
+Embedded 96/247 new texts
+Embedded 128/247 new texts
+Embedded 160/247 new texts
+Embedded 192/247 new texts
+Embedded 224/247 new texts
+Embedded 247/247 new texts
+r3_120  (k=5)
+category         n    recall  precision
+identifier      20     0.550      0.525
+multi-hop       20     0.025      0.025
+paraphrase      20     0.900      0.777
+version         20     0.700      0.538
+OVERALL         80     0.544      0.466
+r3_220  (k=5)
+category         n    recall  precision
+identifier      20     0.550      0.485
+multi-hop       20     0.025      0.010
+paraphrase      20     0.950      0.812
+version         20     0.650      0.604
+OVERALL         80     0.544      0.478
+r3_360  (k=5)
+category         n    recall  precision
+identifier      20     0.550      0.485
+multi-hop       20     0.025      0.010
+paraphrase      20     0.950      0.812
+version         20     0.600      0.562
+OVERALL         80     0.531      0.467
+r2  (k=5)
+category         n    recall  precision
+identifier      20     0.550      0.485
+multi-hop       20     0.025      0.010
+paraphrase      20     0.950      0.806
+version         20     0.650      0.597
+OVERALL         80     0.544      0.475
+r1  (k=5)
+category         n    recall  precision
+identifier      20     0.900      0.708
+multi-hop       20     0.500      0.738
+paraphrase      20     0.100      0.062
+version         20     0.550      0.550
+OVERALL         80     0.512      0.515
+r3  (k=5)
+category         n    recall  precision
+identifier      20     0.550      0.485
+multi-hop       20     0.025      0.010
+paraphrase      20     0.950      0.812
+version         20     0.650      0.604
+OVERALL         80     0.544      0.478
+r4  (k=5)
+category         n    recall  precision
+identifier      20     1.000      0.756
+multi-hop       20     0.475      0.691
+paraphrase      20     0.700      0.589
+version         20     0.650      0.575
+OVERALL         80     0.706      0.653
+r5  (k=5)
+category         n    recall  precision
+identifier      20     1.000      0.756
+multi-hop       20     0.475      0.698
+paraphrase      20     0.800      0.679
+version         20     0.650      0.573
+OVERALL         80     0.731      0.676

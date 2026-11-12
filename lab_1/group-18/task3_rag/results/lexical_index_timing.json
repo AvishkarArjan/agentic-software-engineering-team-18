@@ -1,0 +1,10 @@
+{
+  "size": 220,
+  "overlap": 32,
+  "chunks": 973,
+  "chunking_s": 0.11099590000230819,
+  "bm25_build_s": 0.0572561000008136,
+  "total_s": 0.1682520000031218,
+  "gateway_calls": 0,
+  "note": "Separate offline timing of BM25 build; dense indexes share embeddings and lexical index in main run."
+}
