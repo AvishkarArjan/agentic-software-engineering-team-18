@@ -2,7 +2,7 @@
 
 ## Study background
 
-M.Sc. Computer Engineering 5th Semester from November 2024
+M.Sc. Computer Engineering 5th Semester from October 2026
 
 ## Interests
 

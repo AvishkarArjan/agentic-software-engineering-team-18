@@ -7,8 +7,11 @@ Run from the repository root:
 import json
 import re
 import sys
+import base64
 from datetime import datetime
 from pathlib import Path
+from io import BytesIO
+from PIL import Image
 
 from dotenv import load_dotenv
 
@@ -96,6 +99,24 @@ def get_profiles():
         })
     return profiles
 
+def optimized_image_data_uri(image_path):
+    """Compress images before embedding without modifying originals."""
+
+    with Image.open(image_path) as image:
+        image = image.convert("RGB")
+        image.thumbnail((400, 400))
+
+        buffer = BytesIO()
+        image.save(
+            buffer,
+            format="JPEG",
+            quality=80,
+            optimize=True
+        )
+
+    encoded = base64.b64encode(buffer.getvalue()).decode("ascii")
+    return f"data:image/jpeg;base64,{encoded}"
+
 
 def embed_site_images(html):
     """Replace quoted local <img src> paths with data URIs."""
@@ -108,7 +129,7 @@ def embed_site_images(html):
         image_path = IMAGES_DIR / match.group(3)
         if not image_path.is_file():
             return match.group(0)
-        uri = image_to_data_uri(image_path)
+        uri = optimized_image_data_uri(image_path)
         quote = match.group(2)
         return f"{match.group(1)}{quote}{uri}{quote}"
 
