@@ -125,15 +125,17 @@ class ToolRegistry(ToolRegistryBase):
                 raise ValueError("path is not a directory")
             pattern = args.get("pattern", "*")
             found = []
+            clipped = False
             for path in sorted(root.rglob("*")):
                 if path.is_symlink():
                     continue
                 if path.is_file() and fnmatch.fnmatch(path.name, pattern):
                     if path.resolve().is_relative_to(self.workspace):
                         found.append(path.relative_to(self.workspace).as_posix())
-                if len(found) > MAX_LIST_ENTRIES:
+                # char budget keeps the list a list: execute() stringifies output over MAX_OUTPUT_CHARS
+                if len(found) > MAX_LIST_ENTRIES or sum(map(len, found)) >= MAX_OUTPUT_CHARS // 2:
+                    clipped = True
                     break
-            clipped = len(found) > MAX_LIST_ENTRIES
             return ToolResult(True, found[:MAX_LIST_ENTRIES], truncated=clipped), clipped
 
         if name == "read_file":
@@ -166,6 +168,8 @@ class ToolRegistry(ToolRegistryBase):
             regex = re.compile(args["pattern"])
             limit = min(args.get("max_results", MAX_SEARCH_RESULTS), MAX_SEARCH_RESULTS)
             glob = args.get("glob", "**/*")
+            if Path(glob).is_absolute() or ".." in Path(glob).parts:
+                raise ValueError("glob must stay inside the workspace")
             matches = []
             for path in sorted(self.workspace.glob(glob)):
                 if not path.is_file() or path.is_symlink() or not path.resolve().is_relative_to(self.workspace):
