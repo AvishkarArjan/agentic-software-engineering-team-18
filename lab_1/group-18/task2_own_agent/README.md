@@ -34,7 +34,7 @@ Run these commands from the repository root:
    
    After the agent successfully finishes and the website passes all checks, the program also asks whether the user wants further changes. If feedback is provided, the agent resumes, revises the website, and must pass validation again before finishing. Press Enter to exit without requesting further changes.
    
-   Human feedback is recorded in the run log.
+   Post-finish human feedback is recorded in the run log as `human_feedback`. Feedback at the step limit is sent to the model but not written as a separate log entry.
 
 3. Validate the generated website:
 
@@ -71,6 +71,8 @@ The final HTML was approximately 139 KB and passed all 25 checks. The agent fini
 
 Run log: `logs/agent_run_20261113_133231.jsonl`
 
+Submitted complete run (same content, lab-required name): `logs/run_01.jsonl`
+
 ## Design Decisions and Limitations
 
 - JSON actions keep execution under Python's control without an agent framework.
@@ -80,4 +82,4 @@ Run log: `logs/agent_run_20261113_133231.jsonl`
 - Image compression keeps the self-contained HTML below the file-size limit.
 - The agent requires UPB AI Gateway access and does not detect every form of repeated action.
 - Conversation history still grows over long runs despite shortening older HTML responses.
-- Human continuation is available at the step limit; the current code does not request new feedback after a successful `finish`.
+- Human feedback is requested both at the step limit and after a successful `finish` (optional revision loop that must pass the checker again).
