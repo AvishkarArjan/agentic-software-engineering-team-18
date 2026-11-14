@@ -7,11 +7,13 @@
 __pycache__/
 *.pyc
 .venv/
+venv/
 
-# Generated RAG cache
+# Caches
+.pytest_cache/
 .rag_cache/
 
-# Local environment files
+# OS / editor
 .DS_Store
 
 # Task 4: throwaway git workspace (regenerate with reset_workspace.py)

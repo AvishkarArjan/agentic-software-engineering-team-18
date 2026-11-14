@@ -9,11 +9,8 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 GROUP_DIR = HERE.parent
-REPO_ROOT = HERE.parents[2]
-RESOURCES = REPO_ROOT / "resources" / "lab1" / "task4_tools"
 sys.path.insert(0, str(GROUP_DIR))
 sys.path.insert(0, str(HERE))
-sys.path.insert(0, str(RESOURCES))
 
 from common.llm_client import LLMClient, message_to_dict  # noqa: E402
 from tools import ToolRegistry  # noqa: E402
@@ -28,7 +25,6 @@ def main() -> None:
         raise SystemExit("Workspace is missing; prepare it from the provided tinyledger fixture first.")
 
     if args.mock:
-        sys.path.insert(0, str(RESOURCES))
         from mock_model import MockOpenAIClient
 
         client = LLMClient(model="mock", log_path=Path("/tmp/task4_model.jsonl"),
@@ -49,7 +45,9 @@ def main() -> None:
         )},
         {"role": "user", "content": "Make all tests pass and fix the problem described in ISSUE.md. Do not modify tests."},
     ]
-    for _ in range(24):
+    max_steps = 24
+    max_tokens = 100_000
+    for step in range(max_steps):
         message = client.chat_with_tools(messages, tools=registry.schemas(), max_tokens=4000)
         messages.append(message_to_dict(message))
         calls = getattr(message, "tool_calls", None)
@@ -57,11 +55,14 @@ def main() -> None:
             if getattr(message, "content", None):
                 print(message.content)
             break
-        for call in calls[:8]:
+        for call in calls:
             result = registry.execute(call.function.name, call.function.arguments)
             messages.append({"role": "tool", "tool_call_id": call.id, "content": result.to_content()})
+        if client.total_prompt_tokens >= max_tokens:
+            print(f"Stopped after reaching the {max_tokens}-token budget.")
+            break
     else:
-        print("Stopped after reaching the 24-step budget.")
+        print(f"Stopped after reaching the {max_steps}-step budget.")
     print(f"Model usage: {client.usage_summary()}")
 
 

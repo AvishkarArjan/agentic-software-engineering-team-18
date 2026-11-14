@@ -5,11 +5,18 @@ import subprocess
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-SOURCE = HERE.parents[2] / "resources" / "lab1" / "task4_tools" / "tinyledger"
+LOCAL_FIXTURE = HERE / "tinyledger"
+UPSTREAM_FIXTURE = HERE.parents[2] / "resources" / "lab1" / "task4_tools" / "tinyledger"
+SOURCE = LOCAL_FIXTURE if LOCAL_FIXTURE.is_dir() else UPSTREAM_FIXTURE
 WORKSPACE = HERE / "workspace"
 
 
 def main() -> None:
+    if not SOURCE.is_dir():
+        raise SystemExit(
+            f"tinyledger fixture not found at {SOURCE}\n"
+            "Copy it there from the lab material (resources/lab1/task4_tools/tinyledger)."
+        )
     if WORKSPACE.exists():
         shutil.rmtree(WORKSPACE)
     shutil.copytree(SOURCE, WORKSPACE, ignore=shutil.ignore_patterns("__pycache__", ".pytest_cache"))

@@ -1,3 +1,24 @@
 resources
 task4.json
 opencode.json
+
+# Private credentials
+.env
+.env.*
+!.env.example
+
+# Python temporary files
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Caches
+.pytest_cache/
+.rag_cache/
+
+# OS / editor
+.DS_Store
+
+# Task 4: throwaway git workspace (regenerate with reset_workspace.py)
+lab_1/**/task4_tools/workspace/
