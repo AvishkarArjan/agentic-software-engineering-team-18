@@ -30,7 +30,11 @@ Run these commands from the repository root:
    python lab_1/group-18/task2_own_agent/agent.py
    ```
 
-   If the 15-step limit is reached, enter feedback to continue or `stop` to end the run.
+   If the agent reaches the 15-step limit, the user can enter feedback to continue or type `stop` to exit.
+   
+   After the agent successfully finishes and the website passes all checks, the program also asks whether the user wants further changes. If feedback is provided, the agent resumes, revises the website, and must pass validation again before finishing. Press Enter to exit without requesting further changes.
+   
+   Human feedback is recorded in the run log.
 
 3. Validate the generated website:
 

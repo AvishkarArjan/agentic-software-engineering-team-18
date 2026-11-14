@@ -315,9 +315,56 @@ def run_agent():
                 "observation": observation,
             }, ensure_ascii=False) + "\n")
 
+        
         if state["finished"]:
             print("\nAgent finished successfully!")
-            break
+            print("You can now request changes to the website.")
+
+            try:
+                feedback = input(
+                    "Enter feedback to revise the site, or press Enter to stop: "
+                ).strip()
+            except (KeyboardInterrupt, EOFError):
+                break
+
+            if feedback.lower() in {"", "stop", "quit", "exit"}:
+                break
+
+            # Record the human feedback in the same run log.
+            with run_log.open("a", encoding="utf-8") as output:
+                output.write(json.dumps({
+                    "step": total_steps,
+                    "action": "human_feedback",
+                    "feedback": feedback,
+                }, ensure_ascii=False) + "\n")
+
+            # Tell the model what the user wants changed.
+            messages.append({
+                "role": "assistant",
+                "content": response[:30000],
+            })
+            messages.append({
+                "role": "user",
+                "content": (
+                    "The previous website passed all checks. "
+                    "The user has requested these changes: "
+                    + feedback
+                    + "\nRevise the complete website using write_site. "
+                    "Run the checker again and call finish only "
+                    "after every check passes."
+                ),
+            })
+
+            # Require another successful validation before finishing.
+            state["finished"] = False
+            state["checks_passed"] = False
+            state["site_written"] = False
+            state["search_count"] = 0
+
+            # Start a fresh step allowance for this revision.
+            step = 0
+            continue
+
 
         # The assistant message must remain in the conversation for coherent
         # JSON-action rounds. Compact older write_site actions to avoid context
