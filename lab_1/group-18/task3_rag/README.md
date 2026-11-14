@@ -4,7 +4,8 @@
 
 The completed implementation is documented in [SOLUTION_README.md](SOLUTION_README.md).
 Measured tables are in [RESULTS.md](RESULTS.md); interpretation and evidence reviews
-are in [ANALYSIS.md](ANALYSIS.md). The original assignment specification follows.
+are in [ANALYSIS.md](ANALYSIS.md). Step-by-step instructions for reproducing the results
+are in [REPRODUCE.md](REPRODUCE.md). The original assignment specification follows.
 
 Read the task description on the lab sheet first. There is no starter code for the retrievers, only the
 dataset and the evaluation scripts.
